@@ -1,0 +1,52 @@
+  <item>
+    <title>[COLOR yellow]Some of these lists are large and take time to load[/COLOR]</title>
+    <heading></heading>
+	<thumbnail>special://home/addons/plugin.video.kidscove/images/cartoon3.png</thumbnail>
+  </item>
+
+
+  <dir>
+    <title>Television Shows</title>
+    <link>file://shared lists/tv.xml</link>
+	<thumbnail>special://home/addons/plugin.video.kidscove/images/classictv1.gif</thumbnail>
+	<fanart></fanart>
+  </dir>
+    
+  <dir>
+    <title>Movies</title>
+    <link>file://shared lists/movies.xml</link>
+	<thumbnail>special://home/addons/plugin.video.kidscove/images/cartoons2.gif</thumbnail>
+	<fanart></fanart>
+  </dir>
+      
+  <dir>
+	<title>Tons of Youtube</title>
+    <link>file://shared lists/kidsyoutube.xml</link>
+	<thumbnail>special://home/addons/plugin.video.kidscove/images/youtube.gif</thumbnail>
+  </dir>
+          
+  <dir>
+    <title>MORE Cartoons & Anime</title>
+    <link>file://shared lists/toons-anime.xml</link>
+	<thumbnail>special://home/addons/plugin.video.kidscove/images/cartoons3.gif</thumbnail>
+	<fanart></fanart>
+  </dir>
+  
+  <dir>
+    <title>Tools</title>
+    <link>file://shared lists/tools.xml</link>
+	<thumbnail>special://home/addons/plugin.video.kidscove/images/tools.gif</thumbnail>
+	<fanart></fanart>
+  </dir>
+      
+  <dir>
+    <title>News and Info</title>
+    <link>file://news.xml</link>
+	<thumbnail>special://home/addons/plugin.video.kidscove/images/news1.gif</thumbnail>
+	<fanart></fanart>
+  </dir>
+  
+  <dir>
+      <title>Search TMDB</title>
+      <tmdb>search</tmdb>
+    </dir>

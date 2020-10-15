@@ -1,0 +1,54 @@
+<dir>
+            <title>[COLOR aqua]50 Latest Releases[/COLOR]</title>
+            <wctoon>topfifty/last-50-recent-release</wctoon>
+        </dir>
+
+        <dir>
+            <title>[COLOR aqua]Today's Picks[/COLOR]</title>
+            <wctoon>main/today</wctoon>
+        </dir>
+
+        <dir>
+            <title>[COLOR aqua]Most Popular[/COLOR]</title>
+            <wctoon>main/popular</wctoon>
+        </dir>
+
+        <dir>
+            <title>[COLOR aqua]Dubbed Anime[/COLOR]</title>
+            <wctoon>category/dubbed-anime-list</wctoon>
+        </dir>
+
+        <dir>
+            <title>[COLOR aqua]Subbed Anime[/COLOR]</title>
+            <wctoon>category/subbed-anime-list</wctoon>
+        </dir>
+
+        <dir>
+            <title>[COLOR aqua]Cartoons[/COLOR]</title>
+            <wctoon>category/cartoon-list</wctoon>
+        </dir>
+
+        <dir>
+            <title>[COLOR aqua]Movies[/COLOR]</title>
+            <wctoon>category/movie-list</wctoon>
+        </dir>
+
+        <dir>
+            <title>[COLOR aqua]Ova Series[/COLOR]</title>
+            <wctoon>category/ova-list</wctoon>
+        </dir>
+
+        <dir>
+            <title>[COLOR aqua]Search Site[/COLOR]</title>
+            <wctoon>wcsearch</wctoon>
+        </dir>
+
+        <dir>
+            <title>[COLOR aqua]Everything 101 Dalmatians[/COLOR]</title>
+            <wctoon>wcsearch/101 dalmatians</wctoon>
+        </dir>
+
+        <dir>
+            <title>[COLOR aqua]Action Genre[/COLOR]</title>
+            <wctoon>wcgenre/14</wctoon>
+        </dir>

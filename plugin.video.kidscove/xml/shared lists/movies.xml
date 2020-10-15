@@ -1,0 +1,42 @@
+  <dir>
+    <title>2500+ Animated Movies</title>
+    <wctoon>category/movie-list</wctoon>
+	<thumbnail>special://home/addons/plugin.video.kidscove/images/cartoons2.gif</thumbnail>
+	<fanart></fanart>
+  </dir>
+
+  <dir>
+    <title>Disney Collection</title>
+    <link>file://shared lists/disney.xml</link>
+    <thumbnail>special://home/addons/plugin.video.kidscove/images/walt-disney.gif</thumbnail>
+  </dir>
+  
+  <dir>
+     <title>Pixar Collection</title>
+     <tmdb>company/movies/3</tmdb>
+	 <thumbnail>special://home/addons/plugin.video.kidscove/images/pixar.gif</thumbnail>
+  </dir>
+	  
+  <dir>
+     <title>Dreamworks Collection</title>
+     <tmdb>company/movies/521</tmdb>
+	 <thumbnail>special://home/addons/plugin.video.kidscove/images/dreamworks.gif</thumbnail>
+  </dir>
+  	  
+  <dir>
+     <title>Warner Bros Animation</title>
+     <tmdb>company/movies/2785</tmdb>
+	 <thumbnail>special://home/addons/plugin.video.kidscove/images/warnerbros.gif</thumbnail>
+  </dir>
+  	  
+  <dir>
+     <title>Blue Sky Studios Collection</title>
+     <tmdb>company/movies/9383</tmdb>
+	 <thumbnail>special://home/addons/plugin.video.kidscove/images/bluesky.gif</thumbnail>
+  </dir>
+  
+  <dir>
+    <title>Kids Boxsets</title>
+    <link>file://shared lists/kids_boxset.xml</link>
+    <thumbnail>special://home/addons/plugin.video.kidscove/images/boxsets.gif</thumbnail>
+  </dir>

@@ -1,0 +1,19 @@
+  <dir>
+    <title>B98tv Cartoons</title>
+    <link>file://shared lists/b98tv.xml</link>
+    <thumbnail>https://www.b98.tv/wp-content/uploads/logo.png</thumbnail>
+  </dir>
+
+  <dir>
+	<title>WatchCartoons</title>
+	<link>file://shared lists/cartoons.xml</link>
+	<thumbnail>https://www.cartoonsons.com/images/logos/logo-cartoons-on.png</thumbnail>
+	<fanart></fanart>
+  </dir>
+  
+  <dir>
+	<title>ToonMania</title>
+	<link>file://shared lists/toonmania.xml</link>
+	<thumbnail>https://cdn6.aptoide.com/imgs/5/8/0/580c9a10ef754142837473ab2c0497b9_icon.png?w=120</thumbnail>
+	<fanart></fanart>
+  </dir>

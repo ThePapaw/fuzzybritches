@@ -1,0 +1,30 @@
+
+<dir>
+    <title>[COLOR aqua]Popular Series (Short List)[/COLOR]</title>
+    <wctoon>main/popular_series/0</wctoon>
+</dir>
+
+<dir>
+    <title>[COLOR aqua]Popular Series (Full List)[/COLOR]</title>
+    <wctoon>popular-list</wctoon>
+</dir>
+
+<dir>
+    <title>[COLOR aqua]Dubbed Anime[/COLOR]</title>
+    <wctoon>category/dubbed-anime</wctoon>
+</dir>
+
+<dir>
+    <title>[COLOR aqua]Cartoons[/COLOR]</title>
+    <wctoon>category/cartoon</wctoon>
+</dir>
+
+<dir>
+    <title>[COLOR aqua]Movies[/COLOR]</title>
+    <wctoon>category/movies</wctoon>
+</dir>
+
+<dir>
+    <title>[COLOR aqua]Search Movies[/COLOR]</title>
+    <wctoon>wcsearch</wctoon>
+</dir>

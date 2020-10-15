@@ -1,0 +1,475 @@
+# Compiled by Twiglet 2018 ©
+
+<dir>
+	<title>[COLOR aqua]B98 Cartoon Series[/COLOR]</title>
+	<B98>serieslist/videos_categories/series</B98>
+	<thumbnail>https://www.b98.tv/wp-content/uploads/logo.png</thumbnail>
+</dir>
+
+<dir>
+	<title>[COLOR aqua]B98 Cartoon Studios[/COLOR]</title>
+	<B98>serieslist/videos_categories/studios</B98>
+	<thumbnail>https://www.b98.tv/wp-content/uploads/logo.png</thumbnail>
+</dir>
+
+<dir>
+    <title>[COLOR aqua]Disney[/COLOR]</title>
+    <link>http://vario.esy.es/xml/kids/disney.xml</link>
+    <thumbnail>http://img2.wikia.nocookie.net/__cb20120802225034/pixar/images/6/60/PixarDisneyLogo.jpg</thumbnail>
+  </dir>
+  
+  <dir>
+    <title>[COLOR aqua]Kids Boxsets[/COLOR]</title>
+    <link>http://vario.esy.es/xml/kids/kids_boxset.xml</link>
+    <thumbnail>https://pixel.nymag.com/imgs/daily/vulture/2016/06/29/29-finding-dory.w710.h473.jpg</thumbnail>
+  </dir>
+
+<dir>
+<title>[COLOR aqua]Cartoons and Anime[/COLOR]</title>
+<link>http://vario.esy.es/xml/cartoons/cartoons.xml</link>
+<thumbnail>https://imgur.com/dMKLnB0.jpg</thumbnail>
+<fanart></fanart>
+</dir>
+
+<item>
+<title>[COLOR yellow]***All Content Below is From YouTube***</title>
+<thumbnail>http://www.rachaelsophia.com/wp-content/uploads/2016/04/you-tube-logo.jpg</thumbnail>
+</item>
+
+<plugin>
+<title>[COLOR aqua]Mr Tumble[/COLOR] </title>
+<link>plugin://plugin.video.youtube/playlist/PLJYeepUcqkQaNBcKUGPJLBB2lte1n0mNY/</link>
+<thumbnail>https://i.ebayimg.com/images/g/NP4AAOSwv0tVFQ98/s-l300.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Peppa Pig English Episodes[/COLOR]</title>
+<link>plugin://plugin.video.youtube/playlist/PLFEgnf4tmQe_L3xlmtFwX8Qm5czqwCcVi/</link>
+<thumbnail>https://m.media-amazon.com/images/M/MV5BNDUyODQ0NjAtYTZjMS00MzBjLWI1ZjYtMzBhYzgyYzdjMTE4XkEyXkFqcGdeQXVyMzU5OTE2NTI@._V1_UY268_CR0,0,182,268_AL_.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]CBeebies Playlists[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UC0fXNmjDoC7ckPyT6qM8Urw/playlists/</link>
+<thumbnail>https://easyview.eu/img/cbeebies.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Classic Cartoons[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCRL3LmQvt3G0d5UFnLPUKNA/</link>
+<thumbnail>http://moreinfo.thebigboss.org/moreinfo/classiccartoons3.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Mr Bean Cartoons[/COLOR]</title>
+<link>plugin://plugin.video.youtube/playlist/PLJYeepUcqkQYrN5RzUCqEVnbocELK-Em-/</link>
+<thumbnail>http://cdn.shopify.com/s/files/1/0342/0081/products/iuhgytfrd_large.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Retro Cartoons [/COLOR]</title>
+<link>plugin://plugin.video.youtube/playlist/PLFzgg2jSnryKpX4JpQC4kmplWB6LGtrSc/</link>
+<thumbnail>https://vignette.wikia.nocookie.net/nicthic/images/b/b0/Retro_Cartoons_Logo_2005-2015.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Roadrunner Cartoons - Youtube Playlist[/COLOR]</title>
+<link>plugin://plugin.video.youtube/playlist/PLL3uNn7f3npgvuZEiPYGz3ZmycUtaKywr/</link>
+<thumbnail>https://imgur.com/haVbHHy.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]T-Series Kids Hut[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UChz5aEi3dfrDVC8-YJsMUDA/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]ABC kid TV - Nursery Rhymes[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCbCmjCuTUZos6Inko4u57UQ/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Super Simple Songs - Kids Songs[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCLsooMJoIpl_7ux2jvdPB-Q/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Super Simple TV - Kids Shows & Cartoons[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCdIWg_E1ckuONPTsdvevYgg/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Blippi[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UC5PYHgAzJ1wLEidB58SK6Xw/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]All Kids Songs[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCqxyozOILLj8EtMbKELaZEw/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Geethanjali Kids - Rhymes and Stories[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCGVrxaJHUQHbPSUVDZ8sUVQ/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]FlickBox Studios - Nursery Rhymes and Kids Songs[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCBMiY29jmxd9PGU74eT1xPg/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Little BabyBum[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCKAqou7V9FAWXpZd9xtOg3Q/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Toddler World TV[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCSWRu9m-HZANpMBBQuEf14g/playlists/</link>
+<thumbnail>https://imgur.com/3sfGj0O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Kids TV[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UC7Pq3Ko42YpkCB_Q4E981jw/playlists/</link>
+<thumbnail>https://imgur.com/3sfGj0O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Kids TV Nursery Rhymes[/COLOR]</title>
+<link>plugin://plugin.video.youtube/playlist/PLDt4VQajKv8xKH1YB4kzGMMcnVRwtrk8F/</link>
+<thumbnail>https://imgur.com/3sfGj0O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Kids Channel[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UC3KknIJZXRygH2pZ6MDtGbg/playlists/</link>
+<thumbnail>https://imgur.com/3sfGj0O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Kids Baby Club[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UC4iRwR3TPWhz1Gstf0sGZhg/playlists/</link>
+<thumbnail>https://imgur.com/3sfGj0O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Kids Play Time[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCyXWYhbJomJcTUg98MR5PFA/playlists/</link>
+<thumbnail>https://imgur.com/3sfGj0O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Kids ABC TV[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCaeCuyKgxngpD4DXoYwQRwQ/playlists/</link>
+<thumbnail>https://imgur.com/3sfGj0O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Rainbow Kids[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UC-exISJxZ6hYgRSJVKshpeA/playlists/</link>
+<thumbnail>https://imgur.com/3sfGj0O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Nursery Rhymes ABC TV[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCv7TYWhF5jhtuY3FDPf06Aw/playlists/</link>
+<thumbnail>https://imgur.com/3sfGj0O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Pre School Baby Nursery Rhymes And Children's Songs[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCpnDeduW4x-ww_UOaUAH6WQ/playlists/</link>
+<thumbnail>https://imgur.com/3sfGj0O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Oh My Genius[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCQgcmn4OVaKczXEo45iT_fA/playlists/</link>
+<thumbnail>https://imgur.com/3sfGj0O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Kids Play Doh[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCpq1tEJYbykozES2oqwdwlw/playlists/</link>
+<thumbnail>https://imgur.com/3sfGj0O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Finger Family Children's Nursery Rhymes- Kids & Baby Songs[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCUbu9zPKclGL4quBu1IUelA/playlists/</link>
+<thumbnail>https://imgur.com/3sfGj0O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Mother Goose Club[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCJkWoS4RsldA1coEIot5yDA/playlists/</link>
+<thumbnail>https://imgur.com/3sfGj0O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]ChuChu TV Nursery Rhymes & Kids Songs[/COLOR]</title>
+<link>plugin://plugin.video.youtube/playlist/UCBnZ16ahKA2DZ_T5W0FPUXg/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]LooLoo Kids - Nursery Rhymes and Children's Songs[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UC4NALVCmcmL5ntpV0thoH6w/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Teletubbies[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCOk55dAgB8VnMlhaTEMeX5A/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Sesame Street[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCoookXUzPciGrEZEXmh4Jjg/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]StoryBots[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCAJnyTWJPpKXuwgWQDdNWrQ/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Pingu TV[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCQAhOfRafGt-Zn23xSXQONQ/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Fairy Tales and Stories for Kids[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCOPzf8kf-FUDs32E7F2wGdg/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Little Treehouse Nursery Rhymes and Kids Songs[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCpzYfBXbEHHQHU2e89jM9Tg/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]ABC Heroes - Kids Nursery Rhymes TV And Baby Songs[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCeA2JrCAqRohEHHwAFJNY4Q/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Farmees - Nursery Rhymes And Kids Songs[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCu9MYfF0vosVcK38oNnnJxw/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Ben and Holly’s Little Kingdom[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UC2UhuvjTIrR0Ck2KrkvRcuA/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Fireman Sam[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCAJetkuJ2zz92WOJCrQvfkw/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Postman pat[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCqrVPwN_DhavUC386xH9SDw/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]The Childrens Channel[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UC5ymceNk75lJuXJdFpYpubg/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Little Charley Bear[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCydekQV_GkprQFYMdgc8e6A/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Little Red Tractor[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCLiE5PSUBr6OOsHOqvCJ0QQ/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Fifi and The Flowertots[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UC0j36_NCIX_eSc1nXfNGXVQ/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Nursery Rhymes And Baby Songs[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UC7Pq3Ko42YpkCB_Q4E981jw/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Veggie Tales[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UChddokv0fxIN3BS-KZpxFfA/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Raa Raa the Noisy Lion[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UC9y5Bed2UVb-kxBOt1nwQIQ/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Olivia The Pig[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCKe-7-MbrHXAUB3hYTa6pkw/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Finley The Fire Engine[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCvPaNPcE3xkn2ysrwWlDKrg/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Woody Woodpecker[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCB2aeGGPNj7l5Z71bYNqX-Q/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]George of the Jungle[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCOiiCp4BVYqUvnLP8G38Iow/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]He Man[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCWV0Qgo4Yz7E5_oNF4VJ6Rg/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]She Ra Princess of Power[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCUh6BtszC2-ubKiv0hLf6gQ/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Bravestarr[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCHpsEFbbXOSovRKp5Wvg5aA/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Original Ghostbusters[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCsEu4lk2O55xzm6kXPg0Dag/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Inspector Gadget[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCI-lg_sDdzBtYKVpebqasIA/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]WildBrain - Cartoon Super Heroes[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCUVnfQaEmCIhFZC5d_JniyQ/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]The Adventures of Sonic The Hedgehog[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCnx7h2noWS1bUR8rXvdlXHg/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Sunny Bunnies[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCHyeWVPbdJNWNxdlsKl3IYA/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]BIGFUN[/COLOR]</title>
+<link>plugin://plugin.video.youtube/channel/UCA61Zecxy1jxTMf7aMI8UsQ/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Trumpton[/COLOR]</title>
+<link>plugin://plugin.video.youtube/playlist/PLh-Mj_oSkpi54CNCXpfrrBUqLsAsIoYx5/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Camberwick Green[/COLOR]</title>
+<link>plugin://plugin.video.youtube/playlist/PLh-Mj_oSkpi6ji7pGGdLH2iabfVs2lv4g/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]The Flumps[/COLOR]</title>
+<link>plugin://plugin.video.youtube/playlist/PLh-Mj_oSkpi46fvEp93UJGJy7jKpgDXCS/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Mr Benn[/COLOR]</title>
+<link>plugin://plugin.video.youtube/playlist/PLh-Mj_oSkpi78njyijHli8BvcuQfCArtB/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Bagpuss[/COLOR]</title>
+<link>plugin://plugin.video.youtube/playlist/PLh-Mj_oSkpi75Oxs3r-LbWTKQ0a3RnWMZ/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Ivor The Engine[/COLOR]</title>
+<link>plugin://plugin.video.youtube/playlist/PLh-Mj_oSkpi589iXBX3sO5g0LRC3GJDKu/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Postman Pat Series 1[/COLOR]</title>
+<link>plugin://plugin.video.youtube/playlist/PLAQe205T2kVfRqwUiGOXlaMNcNFLRHc7x/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Postman Pat Series 2[/COLOR]</title>
+<link>plugin://plugin.video.youtube/playlist/PLAQe205T2kVfIUjMOCml5yIRoQe_T_V03/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Postman Pat: The Specials[/COLOR]</title>
+<link>plugin://plugin.video.youtube/playlist/PLAQe205T2kVfcayTqAPEDLExTw6x004-y/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<title>[COLOR aqua]Hector's House[/COLOR]</title>
+<link>plugin://plugin.video.youtube/playlist/PL4CF4BE8E833147A1/</link>
+<thumbnail>https://i.imgur.com/wd3pc5O.jpg</thumbnail>
+</plugin>

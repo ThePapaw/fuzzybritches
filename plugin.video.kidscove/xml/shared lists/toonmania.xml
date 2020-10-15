@@ -1,0 +1,44 @@
+ <dir>
+        <title>[COLOR aqua]New Movies[/COLOR]</title>
+        <toonmania>category/GetNewMovies</toonmania>
+    </dir>
+
+    <dir>
+        <title>[COLOR aqua]All Movies[/COLOR]</title>
+        <toonmania>category/GetAllMovies</toonmania>
+    </dir>
+
+    <dir>
+        <title>[COLOR aqua]Popular Movies[/COLOR]</title>
+        <toonmania>category/GetPopularMovies</toonmania>
+    </dir>
+
+    <dir>
+        <title>[COLOR aqua]New Cartoons[/COLOR]</title>
+        <toonmania>category/GetNewCartoon</toonmania>
+    </dir>
+
+    <dir>
+        <title>[COLOR aqua]All Cartoons[/COLOR]</title>
+        <toonmania>category/GetAllCartoon</toonmania>
+    </dir>
+
+    <dir>
+        <title>[COLOR aqua]Popular Cartoons[/COLOR]</title>
+        <toonmania>category/GetPopularCartoon</toonmania>
+    </dir>
+
+    <dir>
+        <title>[COLOR aqua]New Dubbed Anime[/COLOR]</title>
+        <toonmania>category/GetNewDubbed</toonmania>
+    </dir>
+
+    <dir>
+        <title>[COLOR aqua]All Dubbed Anime[/COLOR]</title>
+        <toonmania>category/GetAllDubbed</toonmania>
+    </dir>
+
+    <dir>
+        <title>[COLOR aqua]Popular Dubbed Anime[/COLOR]</title>
+        <toonmania>category/GetPopularDubbed</toonmania>
+    </dir>

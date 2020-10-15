@@ -1,0 +1,21 @@
+<item>
+<title>[COLOR yellow]Complete The Two Steps Below[/COLOR]</title>
+<link></link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>Go here & Enable RealDebrid in Settings</title>
+<mysettings>3/0</mysettings>
+<thumbnail>https://imgur.com/dyhMAyF.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<dir>
+<title>Go here to (Re)Authorize RealDebrid</title>
+<link>file://shared lists/realauthorize.xml</link>
+<thumbnail>https://imgur.com/svkHvy4.jpg</thumbnail>
+<fanart>https://imgur.com/bAGG4Lg.jpg</fanart>
+</dir>

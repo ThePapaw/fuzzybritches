@@ -1,0 +1,11 @@
+<plugin>
+<title>(Re)Authorize in [COLOR yellow]UrlResolver[/COLOR]</title>
+<link>plugin://script.module.urlresolver/?mode=auth_rd</link>
+<thumbnail>special://home/addons/plugin.video.kidscove/images/urlresolver.jpg</thumbnail>
+</plugin>  
+    
+<plugin>
+<title>(Re)Authorize in [COLOR yellow]Resolveurl[/COLOR]</title>
+<link>plugin://script.module.resolveurl/?mode=auth_rd</link>
+<thumbnail>special://home/addons/plugin.video.kidscove/images/resolveurl.png</thumbnail>
+</plugin>

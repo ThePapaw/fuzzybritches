@@ -1,0 +1,38 @@
+  <dir>
+    <title>1850+ Animated TV Series</title>
+    <wctoon>category/cartoon-list</wctoon>
+	<thumbnail>special://home/addons/plugin.video.kidscove/images/cartoons3.gif</thumbnail>
+	<fanart></fanart>
+  </dir>
+    
+  <dir>
+    <title>Our Gang (Little Rascals)</title>
+    <link>file://shared lists/littlerascals.xml</link>
+    <thumbnail>special://home/addons/plugin.video.kidscove/images/littlerascals.gif</thumbnail>
+  </dir>
+
+  <dir>
+    <title>Leave It To Beaver</title>
+    <link>file://shared lists/leaveittobeaver.xml</link>
+	<thumbnail>special://home/addons/plugin.video.kidscove/images/leaveittobeaver.gif</thumbnail>
+    <fanart></fanart>
+  </dir>
+ 
+  <dir>
+    <title>Laurel & Hardy</title>
+    <link>file://shared lists/laurelandhardy.xml</link>
+    <thumbnail>special://home/addons/plugin.video.kidscove/images/laurelandhardy1.gif</thumbnail>
+  </dir>
+  
+  <dir>
+    <title>Howdy Doody</title>
+    <link>file://shared lists/howdydoody.xml</link>
+    <thumbnail>special://home/addons/plugin.video.kidscove/images/howdydoody.gif</thumbnail>
+  </dir>
+  
+  <dir>
+    <title>MORE Classic TV Shows</title>
+    <tmdb>list/94548</tmdb>
+	<thumbnail>special://home/addons/plugin.video.kidscove/images/classictv1.gif</thumbnail>
+	<fanart>special://home/addons/plugin.video.kidscove/images/fanart.jpg</fanart>
+  </dir>

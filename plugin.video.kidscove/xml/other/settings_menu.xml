@@ -1,0 +1,67 @@
+<jentemplate>
+    <mysettings>
+        <plugin>
+            <title>1. Customization</title>
+            <meta>
+                <summary>Open the Settings for the addon on the Customization tab</summary>
+            </meta>
+            <mysettings>0/0</mysettings>
+        </plugin>
+
+        <plugin>
+            <title>2. Clear Cache</title>
+            <meta>
+                <summary>Open the Settings for the addon on the General tab</summary>
+            </meta>
+            <mysettings>1/0</mysettings>
+        </plugin>
+
+        <plugin>
+            <title>3. Change Scraper Setup</title>
+            <meta>
+                <summary>Open the Settings for the addon on the General tab</summary>
+            </meta>
+            <mysettings>2/0</mysettings>
+        </plugin>
+
+        <plugin>
+            <title>4. Resolver Setup</title>
+            <meta>
+                <summary>Open the Settings for the addon on the Resolvers tab</summary>
+            </meta>
+            <mysettings>3/0</mysettings>
+        </plugin>
+        
+        <plugin>
+            <title>5. Change API Settings & Keys</title>
+            <meta>
+                <summary>Open the API Settings if you wish to add your own API Keys to Arrakis</summary>
+            </meta>
+            <mysettings>4/0</mysettings>
+        </plugin>
+
+        <dir>
+            <title>REAL-DEBRID: Re-Authorize (ResolveURL)</title>
+            <meta>
+                <summary>(Re)Authorize Real-Debrid in the Resolve URL Addon</summary>
+            </meta>
+            <link>file://shared lists/realdebridrevolveurl.xml</link>
+        </dir>
+
+        <item>
+            <title>PAIRING: Pair With...</title>
+            <meta>
+                <summary>Pair with a selection of sites that require pairing for non-premium access</summary>
+            </meta>
+            <pairwith>pairlist</pairwith>
+        </item>
+
+        <item>
+            <title>YOUTUBE: Live and CAMS Fix</title>
+            <meta>
+                <summary>Apply fix for YouTube Live playback issues and if you have problems with CAMS</summary>
+            </meta>
+            <ytdash></ytdash>
+        </item>
+    </mysettings>
+</jentemplate>

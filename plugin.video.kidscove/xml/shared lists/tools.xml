@@ -1,0 +1,12 @@
+  <dir>
+    <title>RealDebrid</title>
+    <link>file://shared lists/realauthorize.xml</link>
+	<thumbnail>special://home/addons/plugin.video.kidscove/images/Realdebrid.png</thumbnail>
+	<fanart></fanart>
+  </dir>
+  
+  <item>
+     <title>Pair Sites</title>
+     <pairwith>pairlist</pairwith>
+	 <thumbnail>special://home/addons/plugin.video.kidscove/images/pair.gif</thumbnail>
+  </item>

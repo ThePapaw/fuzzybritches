@@ -1,0 +1,11 @@
+  <dir>
+	<title>Listed by Series</title>
+	<B98>serieslist/videos_categories/series</B98>
+	<thumbnail>special://home/addons/plugin.video.kidscove/images/cartoons1.gif</thumbnail>
+  </dir>
+  
+  <dir>
+	<title>Listed by Studios</title>
+	<B98>serieslist/videos_categories/studios</B98>
+	<thumbnail>special://home/addons/plugin.video.kidscove/images/cartoons2.gif</thumbnail>
+  </dir>
