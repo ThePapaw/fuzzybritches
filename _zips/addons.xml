@@ -360,4 +360,17 @@
         <description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
     </extension>
 </addon>
+
+<addon id="script.moviesetart" name="Movie Set Artwork Automator" version="0.2.2" provider-name="Trent Fitzgibbon">
+	<extension point="xbmc.python.script" library="default.py">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<language />
+		<platform>all</platform>
+		<summary>Movie Set Artwork Automator</summary>
+		<description>This addon will automatically set artwork for all movie sets in your library.
+
+			The addon can search for common parent folders of movies within a set or you can specify a single artwork folder containing artwork for all your movie sets (eg &amp;lt;set name&amp;gt;-poster.jpg).</description>
+		</extension>
+	</addon>
 </addons>
