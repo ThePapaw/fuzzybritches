@@ -1,0 +1,27 @@
+﻿[B][COLOR deepskyblue]                                  ••••• [/COLOR][/B][B][COLOR yellow] LATEST NEWS [/COLOR][/B][B][COLOR deepskyblue] •••••[/COLOR][/B]
+
+[B][COLOR deepskyblue]• [/COLOR][/B][COLOR deepskyblue]CURRENT STATUS:[/COLOR][COLOR orange] Great[/COLOR] 
+[COLOR deepskyblue]********************************************************************************************[/COLOR]
+[B][COLOR limegreen]v1.0.10 (10-01-20)[/COLOR][/B]
+[B][COLOR deepskyblue]• [/COLOR][/B] Scraper Work
+[B][COLOR limegreen]v1.0.9 (09-26-20)[/COLOR][/B]
+[B][COLOR deepskyblue]• [/COLOR][/B] Scraper Work
+[B][COLOR limegreen]v1.0.8 (09-22-20)[/COLOR][/B]
+[B][COLOR deepskyblue]• [/COLOR][/B] Scraper Work
+[B][COLOR deepskyblue]• [/COLOR][/B] Removed Un-used Dependencies
+[B][COLOR limegreen]v1.0.7 (09-03-20)[/COLOR][/B]
+[B][COLOR deepskyblue]• [/COLOR][/B] Scraper Work
+[B][COLOR limegreen]v1.0.6 (08-21-20)[/COLOR][/B]
+[B][COLOR deepskyblue]• [/COLOR][/B] Scraper Work
+[B][COLOR limegreen]v1.0.5 (08-14-20)[/COLOR][/B]
+[B][COLOR deepskyblue]• [/COLOR][/B] Scraper Work
+[B][COLOR limegreen]v1.0.4 (08-09-20)[/COLOR][/B]
+[B][COLOR deepskyblue]• [/COLOR][/B] Minor Fixes
+[B][COLOR limegreen]v1.0.3 (08-09-20)[/COLOR][/B]
+[B][COLOR deepskyblue]• [/COLOR][/B] Scraper Work
+[B][COLOR deepskyblue]• [/COLOR][/B] Minor Fixes
+[B][COLOR limegreen]v1.0.2 (06-26-20)[/COLOR][/B]
+[B][COLOR deepskyblue]• [/COLOR][/B] Scraper Work
+[B][COLOR deepskyblue]• [/COLOR][/B] Minor Fixes
+[B][COLOR limegreen]v1.0.1 (04-11-20)[/COLOR][/B]
+[B][COLOR deepskyblue]• [/COLOR][/B] Initial release

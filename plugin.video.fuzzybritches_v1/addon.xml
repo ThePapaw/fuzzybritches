@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.fuzzybritches_v1" version="1.0.11" name="[COLOR orange]Fuzzy Britches v1[/COLOR]" provider-name="The Papaw">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.fuzzybritches_v1" />
+        <import addon="script.fuzzybritches_v1.artwork" />
+        <import addon="script.fuzzybritches_v1.metadata" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.metahandler" />
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.inputstreamhelper" version="0.3.3"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="fuzzybritches_v1.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+		<summary lang="en">Fuzzy Britches v1</summary>
+        <description lang="en_US">[B][COLOR yellow]The Official Fuzzy Britches v2 Addon[/B][/COLOR][CR]Created for my beautiful wife nicknamed [COLOR yellow]Fuzzy Britches[/COLOR]. Works with Kodi and other Kodi forks</description>
+        <disclaimer lang="en_US">The author of this addon does NOT host any of the content which is found and has no affiliation with any of the content providers. This addon simply searches websites for content. This addon does not form part of the Kodi Media Center. Please do not seek assistance with this addon from any of the official Kodi Support Channels. Use at your own risk! The code for this addon was patched together by The Papaw.</disclaimer>
+        <platform>all</platform>
+		<license>CC BY-NC-SA 4.0</license>
+		<forum></forum>
+		<website>https://github.com/ThePapaw/fuzzybritches</website>
+		<source>https://github.com/ThePapaw/fuzzybritches</source>
+		<video_guide></video_guide>
+        <assets>
+			<icon>icon.gif</icon>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/art/media/screenshot-01.jpg</screenshot>
+			<screenshot>resources/art/media/screenshot-02.jpg</screenshot>
+			<screenshot>resources/art/media/screenshot-03.jpg</screenshot>
+			<screenshot>resources/art/media/screenshot-04.jpg</screenshot>
+			<screenshot>resources/art/media/screenshot-05.jpg</screenshot>
+			<screenshot>resources/art/media/screenshot-06.jpg</screenshot>
+			<screenshot>resources/art/media/screenshot-07.jpg</screenshot>
+			<screenshot>resources/art/media/screenshot-08.jpg</screenshot>
+			<screenshot>resources/art/media/screenshot-09.jpg</screenshot>
+		</assets>
+    </extension>
+</addon>

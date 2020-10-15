@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.fuzzybritches_v1.metadata" version="1.0.1" name="Fuzzy Britches_v1 Metadata" provider-name="The Papaw">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+		<summary>Metadata for Fuzzy Britches v1 Addon</summary>
+		<description>Metadata for Fuzzy Britches v1 are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+		<license>CC BY-NC-SA 4.0</license>
+		<forum></forum>
+		<website>https://github.com/ThePapaw/fuzzybritches</website>
+		<source>https://github.com/ThePapaw/fuzzybritches</source>
+		<video_guide></video_guide>
+        <assets>
+	      <icon>icon.png</icon>
+		  <fanart>fanart.jpg</fanart>
+		</assets>
+    </extension>
+</addon>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.fuzzybritches_v1" name="[COLOR orange]Fuzzy Britches v1 Module[/COLOR]" version="1.0.9" provider-name="The Papaw">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.beautifulsoup4"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<license>CC BY-NC-SA 4.0</license>
+		<forum></forum>
+		<website>https://github.com/ThePapaw/fuzzybritches</website>
+		<source>https://github.com/ThePapaw/fuzzybritches</source>
+		<video_guide></video_guide>
+        <assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+    </extension>
+</addon>
