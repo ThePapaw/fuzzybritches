@@ -34,7 +34,7 @@ If you have issues, please post them here. All items are still being developed a
 
   
 To Install:
-1. Download the repository. <a href="https://github.com/ThePapaw/fuzzybritches/blob/master/_zips/repository.fuzzybritches/repository.fuzzybritches-1.0.24.zip?raw=true">CLICK HERE</a>
+1. Download the repository. <a href="https://github.com/ThePapaw/fuzzybritches/blob/master/_zips/repository.fuzzybritches/repository.fuzzybritches-1.0.25.zip?raw=true">CLICK HERE</a>
 
 2. Install "from zip file" in Kodi as you would any other downloaded addon.
 
