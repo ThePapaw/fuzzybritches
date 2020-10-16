@@ -210,6 +210,142 @@
         </extension>
     </addon>
 
+<addon id="resource.uisounds.psmc-batman" version="1.0.1" name="PSMC's Batman GUI Sounds" provider-name="The Papaw">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">GUI Sounds for the PSMCs Batman skin.</summary>
+	<description lang="en">These GUI Sounds were created for use with the PSMCs Batman skin provided by The Papaw.</description>
+    <platform>all</platform>
+	<license>CC BY-NC-SA 4.0</license>
+		<forum></forum>
+		<website>https://github.com/ThePapaw/psmc</website>
+		<source>https://github.com/ThePapaw/psmc</source>
+		<video_guide></video_guide>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>[COLOR FFFFFF00]GUI Sounds for the PSMCs Batman skin[/COLOR][COLOR FF00D5FF][CR]- Initial release[/COLOR]</news>
+  </extension>
+</addon>
+
+<addon id="resource.uisounds.psmc-manofsteel" version="1.0.0" name="PSMC's Man of Steel GUI Sounds" provider-name="The Papaw">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">GUI Sounds for the PSMCs Man of Steel skin.</summary>
+	<description lang="en">These GUI Sounds were created for use with the PSMCs Man of Steel skin provided by The Papaw.</description>
+    <platform>all</platform>
+	<license>CC BY-NC-SA 4.0</license>
+		<forum></forum>
+		<website>https://github.com/ThePapaw/psmc</website>
+		<source>https://github.com/ThePapaw/psmc</source>
+		<video_guide></video_guide>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>[COLOR FFFFFF00]GUI Sounds for the PSMCs Man of Steel skin[/COLOR][COLOR FF00D5FF][CR]- Initial release[/COLOR]</news>
+  </extension>
+</addon>
+
+<addon id="resource.uisounds.psmc-mario" version="1.0.0" name="PSMC Super Mario Galaxy UI Sounds" provider-name="The Papaw">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">UI Sounds for the PSMC Super Mario Galaxy skin.</summary>
+	<description lang="en">These UI Sounds were created for use with the PSMC Super Mario Galaxy skin.</description>
+    <platform>all</platform>
+	<license></license>
+		<forum></forum>
+		<website>https://github.com/ThePapaw/psmc</website>
+		<source>https://github.com/ThePapaw/psmc</source>
+		<video_guide></video_guide>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>
+[COLOR blue]• [/COLOR]Created for the PSMC Super Mario Galaxy skin.
+
+Please give credit to all the devolopers that have and do contribute!
+        </news>
+  </extension>
+</addon>
+
+<addon id="resource.uisounds.psmc-scoobydoo" version="1.0.1" name="PSMC's Scooby-Doo GUI Sounds" provider-name="The Papaw">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">GUI Sounds for the PSMC's Scooby-Doo skin.</summary>
+	<description lang="en">These GUI Sounds were created for use with the PSMC's Scooby-Doo skin provided by The Papaw.</description>
+    <platform>all</platform>
+	<license>CC BY-NC-SA 4.0</license>
+		<forum></forum>
+		<website>https://github.com/ThePapaw/psmc</website>
+		<source>https://github.com/ThePapaw/psmc</source>
+		<video_guide></video_guide>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>Created for the PSMC's Scooby-Doo skin provided by The Papaw[CR]- Changed a couple sounds</news>
+  </extension>
+</addon>
+
+<addon id="resource.uisounds.psmc-spiderman" version="1.0.0" name="PSMC's Spiderman GUI Sounds" provider-name="The Papaw">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">GUI Sounds for the PSMC's Spiderman skin.</summary>
+	<description lang="en">These GUI Sounds were created for use with the PSMC's Spiderman skin.</description>
+    <platform>all</platform>
+	<license>CC BY-NC-SA 4.0</license>
+		<forum></forum>
+		<website>https://github.com/ThePapaw/psmc</website>
+		<source>https://github.com/ThePapaw/psmc</source>
+		<video_guide></video_guide>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>Created for the PSMC's Spiderman skin themed and modded by The Papaw.</news>
+  </extension>
+</addon>
+
+<addon id="resource.uisounds.psmc-toystory" version="1.0.0" name="PSMC's Toy Story GUI Sounds" provider-name="The Papaw">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">GUI Sounds for the PSMC's Spiderman skin.</summary>
+	<description lang="en">These GUI Sounds were created for use with the PSMC's Toy Story skin.</description>
+    <platform>all</platform>
+	<license>CC BY-NC-SA 4.0</license>
+		<forum></forum>
+		<website>https://github.com/ThePapaw/psmc</website>
+		<source>https://github.com/ThePapaw/psmc</source>
+		<video_guide></video_guide>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>Created for the PSMC's Toy Story skin themed and modded by The Papaw[CR]- Initial release</news>
+  </extension>
+</addon>
+
 <addon id="script.fuzzybritches_v1.artwork" version="1.0.1" name="[COLOR orange]Fuzzy Britches v1 Artwork[/COLOR]" provider-name="The Papaw">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
