@@ -32,7 +32,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.fuzzybritches_v1" version="1.0.11" name="[COLOR orange]Fuzzy Britches v1[/COLOR]" provider-name="The Papaw">
+<addon id="plugin.video.fuzzybritches_v1" version="1.0.12" name="[COLOR orange]Fuzzy Britches v1[/COLOR]" provider-name="The Papaw">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.fuzzybritches_v1" />

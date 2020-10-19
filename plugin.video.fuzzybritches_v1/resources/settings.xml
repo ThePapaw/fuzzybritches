@@ -172,6 +172,7 @@
         <setting id="provider.torrentfunk" type="bool" label="TORRENTFUNK" default="true" />
         <setting id="provider.torrentgalaxy" type="bool" label="TORRENTGALAXY" default="true" />
         <setting id="provider.torrentquest" type="bool" label="TORRENTQUEST" default="true" />
+        <setting id="provider.torrentz" type="bool" label="TORRENTZ" default="true" />
         <setting id="provider.yify" type="bool" label="YIFY" default="true" />
         <setting id="provider.yifyddl" type="bool" label="YIFYDDL" default="true" />
         <setting id="provider.yourbittorrent" type="bool" label="YOURBITTORRENT" default="true" />
