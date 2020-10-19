@@ -406,7 +406,7 @@ Please give credit to all the devolopers that have and do contribute!
 	</extension>
 </addon>
 
-<addon id="script.module.fuzzybritches_v1" name="[COLOR orange]Fuzzy Britches v1 Module[/COLOR]" version="1.0.9" provider-name="The Papaw">
+<addon id="script.module.fuzzybritches_v1" name="[COLOR orange]Fuzzy Britches v1 Module[/COLOR]" version="1.0.10" provider-name="The Papaw">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.beautifulsoup4"/>
