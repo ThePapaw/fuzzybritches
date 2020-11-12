@@ -88,7 +88,7 @@ class s0urce:
 
             r = client.request(url)
             r = client.parseDOM(r, 'h2', attrs={'class': 'title'})
-            r = [re.findall('(?s)<a class=.*?f="([^"]*)">([^<]*)', i, re.DOTALL)[0] for i in r]
+            r = [re.findall('<a class=""\s*href="([^"]*)"\s*title="([^"]*)', i, re.DOTALL)[0] for i in r]
 
             hostDict = hostprDict + hostDict
             items = []
