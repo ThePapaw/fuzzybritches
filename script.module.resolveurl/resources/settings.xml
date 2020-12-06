@@ -261,9 +261,9 @@
 		<setting id="JetloadResolver_enabled" type="bool" label="Enabled" default="true"/>
 		<setting id="JetloadResolver_login" type="bool" label="login" default="true" visible="false"/>
 		<setting label="letsupload.io" type="lsep"/>
-		<setting id="AnaVidsResolver_priority" type="number" label="Priority" default="100"/>
-		<setting id="AnaVidsResolver_enabled" type="bool" label="Enabled" default="true"/>
-		<setting id="AnaVidsResolver_login" type="bool" label="login" default="true" visible="false"/>
+		<setting id="LetsUploadResolver_priority" type="number" label="Priority" default="100"/>
+		<setting id="LetsUploadResolver_enabled" type="bool" label="Enabled" default="true"/>
+		<setting id="LetsUploadResolver_login" type="bool" label="login" default="true" visible="false"/>
 		<setting label="lewdhost" type="lsep"/>
 		<setting id="LewdHostResolver_priority" type="number" label="Priority" default="100"/>
 		<setting id="LewdHostResolver_enabled" type="bool" label="Enabled" default="true"/>
