@@ -30,8 +30,8 @@ class s0urce:
         self.priority = 1
         self.language = ['en']
         self.domains = ['rlsbb.ru']
-        self.base_link = 'http://rlsbb.to'
-        self.search_base_link = 'http://search.rlsbb.to'
+        self.base_link = 'http://proxybb.com'
+        self.search_base_link = 'http://search.proxybb.com'
         self.search_cookie = 'serach_mode=rlsbb'
         self.search_link = '/lib/search526049.php?phrase=%s&pindex=1&content=true'
 
@@ -90,7 +90,7 @@ class s0urce:
             url = self.search_link % urllib.quote_plus(query)
             url = urlparse.urljoin(self.base_link, url)
 
-            url = "http://rlsbb.to/" + query
+            url = "http://proxybb.com/" + query
             if 'tvshowtitle' not in data: url = url + "-1080p"
 
             r = scraper.get(url).content
@@ -104,7 +104,7 @@ class s0urce:
                 query = query.replace("&", "and")
                 query = query.replace("  ", " ")
                 query = query.replace(" ", "-")
-                url = "http://rlsbb.to/" + query
+                url = "http://proxybb.com/" + query
                 r = scraper.get(url).content
 
             
@@ -117,7 +117,7 @@ class s0urce:
                     query = query.replace("&", " and ").replace("  ", " ").replace(" ", "-")
                     query = query + "-" + premDate
                     
-                    url = "http://rlsbb.to/" + query
+                    url = "http://proxybb.com/" + query
                     url = url.replace('The-Late-Show-with-Stephen-Colbert','Stephen-Colbert')
                     
 

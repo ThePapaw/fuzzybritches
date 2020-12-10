@@ -21,7 +21,7 @@ from resources.lib.modules import cleantitle, debrid, source_utils
 from resources.lib.modules import client
 
 
-class source:
+class s0urce:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
@@ -80,10 +80,8 @@ class source:
             url = self.search_link % urllib.quote_plus(query)
             url = urlparse.urljoin(self.base_link, url).replace('++', '+')
 
-            headers = {'Referer': self.base_link,'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0'}
-
             try:
-                r = client.request(url, headers=headers)
+                r = client.request(url)
                 posts = client.parseDOM(r, 'tbody')[0]
                 posts = client.parseDOM(posts, 'tr')
                 for post in posts:
@@ -94,7 +92,7 @@ class source:
                         link = urlparse.urljoin(self.base_link, link)
                         if any(x in link for x in ['FRENCH', 'Ita', 'ITA', 'italian', 'Tamil', 'TRUEFRENCH', '-lat-', 'Dublado', 'Dub', 'Rus', 'Hindi']):
                                 continue
-                        link = client.request(link, headers=headers)
+                        link = client.request(link)
                         getsize = re.compile('"fileSize">(.+?)</span>').findall(link)[0]
                         try:
                             size = re.findall('((?:\d+\,\d+\.\d+|\d+\.\d+|\d+\,\d+|\d+)\s*(?:GiB|MiB|GB|MB))', getsize)[0]
