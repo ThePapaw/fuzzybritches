@@ -166,7 +166,6 @@
         <setting id="provider.piratebay" type="bool" label="PIRATEBAY" default="true" />
         <setting id="provider.skytorrents" type="bool" label="SKYTORRENTS" default="true" />
         <setting id="provider.solidtorrents" type="bool" label="SOLIDTORRENTS" default="true" />
-        <setting id="provider.topnow" type="bool" label="TOPNOW" default="true" />
         <setting id="provider.torlock" type="bool" label="TORLOCK" default="true" />
         <setting id="provider.torrentapi" type="bool" label="TORRENTAPI" default="true" />
         <setting id="provider.torrentdownloads" type="bool" label="TORRENTDOWNLOADS" default="true" />
