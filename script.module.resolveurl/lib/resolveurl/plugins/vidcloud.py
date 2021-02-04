@@ -13,37 +13,18 @@
     along with this program. If not, see <http://www.gnu.org/licenses/>.
 """
 
-import re
 from resolveurl.plugins.lib import helpers
-from resolveurl import common
-from resolveurl.resolver import ResolveUrl, ResolverError
+from resolveurl.plugins.__resolve_generic__ import ResolveGeneric
 
 
-class VidCloudResolver(ResolveUrl):
+class VidCloudResolver(ResolveGeneric):
     name = 'vidcloud'
     domains = ['vidcloud.co', 'vidcloud.pro', 'vidcloud.is']
-    pattern = r'(?://|\.)(vidcloud\.(?:co|pro|is))/(?:embed/|v/|player\?fid=)([0-9a-zA-Z]+)'
+    pattern = r'(?://|\.)(vidcloud\.(?:co|pro|is))/(?:embed\d/|v/|player\?fid=)([0-9a-zA-Z?&=]+)'
 
     def get_media_url(self, host, media_id):
-        surl = 'https://jetload.net/jet_secure'
-        domain = 'aHR0cHM6Ly9qZXRsb2FkLm5ldDo0NDM.'
-        web_url = self.get_url(host, media_id)
-        rurl = 'https://{0}/'.format(host)
-        headers = {'User-Agent': common.FF_USER_AGENT,
-                   'Referer': rurl}
-        html = self.net.http_GET(web_url, headers).content
-        if 'File Deleted' not in html:
-            token = helpers.girc(html, rurl, domain)
-            if token:
-                edata = {'stream_code': media_id,
-                         'token': token}
-                headers.update({'Origin': rurl[:-1]})
-                shtml = self.net.http_POST(surl, form_data=edata, headers=headers, jdata=True).content
-                r = re.search('"src":"([^"]+)', shtml)
-                if r:
-                    return r.group(1) + helpers.append_headers(headers)
-
-        raise ResolverError('File Not Found or removed')
+        return helpers.get_media_url(self.get_url(host, media_id),
+                                     referer=False)
 
     def get_url(self, host, media_id):
-        return self._default_get_url(host, media_id, 'https://{host}/embed/{media_id}')
+        return self._default_get_url(host, media_id, 'https://{host}/embed5/{media_id}')
