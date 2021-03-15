@@ -27,7 +27,7 @@ class s0urce:
         self.priority = 1
         self.language = ['en']
         self.domains = ['www.skytorrents.lol']
-        self.base_link = 'https://www.skytorrents.to'
+        self.base_link = 'https://www.skytorrents.net'
         self.search_link = '/?search=%s'
         self.min_seeders = int(control.setting('torrent.min.seeders'))
 
