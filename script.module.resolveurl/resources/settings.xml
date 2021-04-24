@@ -518,6 +518,10 @@
 		<setting id="UQloadResolver_priority" type="number" label="Priority" default="100"/>
 		<setting id="UQloadResolver_enabled" type="bool" label="Enabled" default="true"/>
 		<setting id="UQloadResolver_login" type="bool" label="login" default="true" visible="false"/>
+		<setting label="UserLoad" type="lsep"/>
+		<setting id="UserLoadResolver_priority" type="number" label="Priority" default="100"/>
+		<setting id="UserLoadResolver_enabled" type="bool" label="Enabled" default="true"/>
+		<setting id="UserLoadResolver_login" type="bool" label="login" default="true" visible="false"/>
 		<setting label="userscloud" type="lsep"/>
 		<setting id="UsersCloudResolver_priority" type="number" label="Priority" default="100"/>
 		<setting id="UsersCloudResolver_enabled" type="bool" label="Enabled" default="true"/>
@@ -564,12 +568,12 @@
 		<setting id="VideoApneResolver_priority" type="number" label="Priority" default="100"/>
 		<setting id="VideoApneResolver_enabled" type="bool" label="Enabled" default="true"/>
 		<setting id="VideoApneResolver_login" type="bool" label="login" default="true" visible="false"/>
+	</category>
+	<category label="Resolvers 7">
 		<setting label="videobin" type="lsep"/>
 		<setting id="VideobinResolver_priority" type="number" label="Priority" default="100"/>
 		<setting id="VideobinResolver_enabled" type="bool" label="Enabled" default="true"/>
 		<setting id="VideobinResolver_login" type="bool" label="login" default="true" visible="false"/>
-	</category>
-	<category label="Resolvers 7">
 		<setting label="videohost2.com" type="lsep"/>
 		<setting id="VideoHost2Resolver_priority" type="number" label="Priority" default="100"/>
 		<setting id="VideoHost2Resolver_enabled" type="bool" label="Enabled" default="true"/>
@@ -642,12 +646,12 @@
 		<setting id="VidtoResolver_priority" type="number" label="Priority" default="100"/>
 		<setting id="VidtoResolver_enabled" type="bool" label="Enabled" default="true"/>
 		<setting id="VidtoResolver_login" type="bool" label="login" default="true" visible="false"/>
+	</category>
+	<category label="Resolvers 8">
 		<setting label="viduplayer" type="lsep"/>
 		<setting id="ViduPlayerResolver_priority" type="number" label="Priority" default="100"/>
 		<setting id="ViduPlayerResolver_enabled" type="bool" label="Enabled" default="true"/>
 		<setting id="ViduPlayerResolver_login" type="bool" label="login" default="true" visible="false"/>
-	</category>
-	<category label="Resolvers 8">
 		<setting label="vidwatch.me" type="lsep"/>
 		<setting id="VidwatchResolver_priority" type="number" label="Priority" default="100"/>
 		<setting id="VidwatchResolver_enabled" type="bool" label="Enabled" default="true"/>
@@ -720,12 +724,12 @@
 		<setting id="YouDBoxResolver_priority" type="number" label="Priority" default="100"/>
 		<setting id="YouDBoxResolver_enabled" type="bool" label="Enabled" default="true"/>
 		<setting id="YouDBoxResolver_login" type="bool" label="login" default="true" visible="false"/>
+	</category>
+	<category label="Resolvers 9">
 		<setting label="yourupload.com" type="lsep"/>
 		<setting id="YourUploadResolver_priority" type="number" label="Priority" default="100"/>
 		<setting id="YourUploadResolver_enabled" type="bool" label="Enabled" default="true"/>
 		<setting id="YourUploadResolver_login" type="bool" label="login" default="true" visible="false"/>
-	</category>
-	<category label="Resolvers 9">
 		<setting label="youtube" type="lsep"/>
 		<setting id="YoutubeResolver_priority" type="number" label="Priority" default="100"/>
 		<setting id="YoutubeResolver_enabled" type="bool" label="Enabled" default="true"/>
