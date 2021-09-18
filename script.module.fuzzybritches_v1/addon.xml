@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.fuzzybritches_v1" name="[COLOR orange]Fuzzy Britches v1 Module[/COLOR]" version="1.0.16" provider-name="The Papaw">
+<addon id="script.module.fuzzybritches_v1" name="[COLOR orange]Fuzzy Britches v1 Module[/COLOR]" version="1.0.17" provider-name="The Papaw">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.beautifulsoup4"/>
