@@ -418,7 +418,7 @@ Please give credit to all the devolopers that have and do contribute!
 	</extension>
 </addon>
 
-<addon id="script.module.fuzzybritches_v1" name="[COLOR orange]Fuzzy Britches v1 Module[/COLOR]" version="1.0.17" provider-name="The Papaw">
+<addon id="script.module.fuzzybritches_v1" name="[COLOR orange]Fuzzy Britches v1 Module[/COLOR]" version="1.0.18" provider-name="The Papaw">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.beautifulsoup4"/>
@@ -438,7 +438,7 @@ Please give credit to all the devolopers that have and do contribute!
     </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.39" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.44" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
