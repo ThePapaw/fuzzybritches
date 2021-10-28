@@ -1,6 +1,6 @@
 """
     Plugin for ResolveUrl
-    Copyright (C) 2019 gujal
+    Copyright (C) 2020 gujal
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -17,31 +17,31 @@
 """
 
 import re
+import json
 from resolveurl.plugins.lib import helpers
-from resolveurl import common
 from resolveurl.resolver import ResolveUrl, ResolverError
+from resolveurl import common
 
 
-class StreamzResolver(ResolveUrl):
-    name = 'streamz'
-    domains = ['streamz.cc', 'streamz.vg', 'streamzz.to', 'streamz.ws']
-    pattern = r'(?://|\.)(streamzz?\.(?:cc|vg|to|ws))/([0-9a-zA-Z]+)'
+class VlalaNetResolver(ResolveUrl):
+    name = "vlalanet"
+    domains = ["videoslala.net", "myfeminist.com"]
+    pattern = r'(?://|\.)((?:videoslala|myfeminist)\.(?:com|net))/embed/([^\n]+)'
 
     def get_media_url(self, host, media_id):
-
         web_url = self.get_url(host, media_id)
-        headers = {'User-Agent': common.CHROME_USER_AGENT}
+        headers = {'User-Agent': common.FF_USER_AGENT}
         html = self.net.http_GET(web_url, headers=headers).content
 
-        if '<b>File not found, sorry!</b>' not in html:
-            html += helpers.get_packed_data(html)
-            v = re.search(r"player\s*=\s*.*?'([^']+)", html)
-            if v:
-                vurl = re.search(r'''{0}".+?src:\s*'([^']+)'''.format(v.group(1)), html)
-                if vurl:
-                    return helpers.get_redirect_url(vurl.group(1), headers) + helpers.append_headers(headers)
+        html = helpers.get_packed_data(html)
+        sources = re.search(r'sources:\s*(\[[^]]+])', html)
+        if sources:
+            sources = json.loads(sources.group(1))
+            sources = [(x.get('label'), x.get('file')) for x in sources]
+            source = helpers.pick_source(sorted(sources, reverse=True))
+            return source + helpers.append_headers(headers)
 
-        raise ResolverError('Video not found or removed')
+        raise ResolverError('No playable video found.')
 
     def get_url(self, host, media_id):
-        return self._default_get_url(host, media_id, template='https://streamzz.to/{media_id}')
+        return self._default_get_url(host, media_id, template='https://{host}/embed/{media_id}')
