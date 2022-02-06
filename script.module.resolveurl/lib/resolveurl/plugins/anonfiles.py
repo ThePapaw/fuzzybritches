@@ -1,6 +1,6 @@
 """
-Plugin for ResolveURL
-Copyright (C) 2020 gujal
+Plugin for ResolveUrl
+Copyright (C) 2022 gujal
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -20,17 +20,17 @@ from resolveurl.plugins.__resolve_generic__ import ResolveGeneric
 from resolveurl.plugins.lib import helpers
 
 
-class VideoApneResolver(ResolveGeneric):
-    name = "videoapne.co"
-    domains = ['videoapne.co']
-    pattern = r'(?://|\.)(videoapne\.co)/(?:embed-)?([0-9a-zA-Z]+)'
+class AnonFilesResolver(ResolveGeneric):
+    name = 'anonfiles.com'
+    domains = ['anonfiles.com', 'bayfiles.com']
+    pattern = r'(?://|\.)((?:bay|anon)files\.com)/([0-9a-zA-Z]+)'
 
     def get_media_url(self, host, media_id):
         return helpers.get_media_url(self.get_url(host, media_id),
-                                     patterns=[r'''file:\s*"(?P<url>[^"]+)",label:\s*"(?P<label>[^"]+)'''],
-                                     result_blacklist=".m3u8",
+                                     patterns=[r'(?s)id="download-url".+?href="(?P<url>[^"]+)'],
                                      generic_patterns=False,
-                                     referer=False)
+                                     referer=False,
+                                     result_blacklist=['.zip', '.rar']).replace(' ', '%20')
 
     def get_url(self, host, media_id):
         return self._default_get_url(host, media_id, template='https://{host}/{media_id}')

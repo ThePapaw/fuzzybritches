@@ -1,6 +1,6 @@
 """
     Plugin for ResolveUrl
-    Copyright (C) 2015 tknorris
+    Copyright (C) 2021 shellc0de
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -9,41 +9,41 @@
 
     This program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    along with this program. If not, see <http://www.gnu.org/licenses/>.
 """
 
+import re
 from resolveurl import common
 from resolveurl.plugins.lib import helpers
 from resolveurl.resolver import ResolveUrl, ResolverError
 
 
-class TusfilesResolver(ResolveUrl):
-    name = 'tusfiles'
-    domains = ['tusfiles.net', 'tusfiles.com']
-    pattern = r'(?://|\.)(tusfiles\.(?:net|com))/(?:embed-)?([0-9a-zA-Z]+)'
+class RacatyResolver(ResolveUrl):
+    name = 'racaty'
+    domains = ['racaty.net']
+    pattern = r'(?://|\.)(racaty\.net)/([0-9a-zA-Z]+)'
 
     def get_media_url(self, host, media_id):
         web_url = self.get_url(host, media_id)
+        rurl = 'https://{}/'.format(host)
         headers = {
-            'Origin': web_url.rsplit('/', 1)[0],
-            'Referer': web_url,
+            'Origin': rurl[:-1],
+            'Referer': rurl,
             'User-Agent': common.RAND_UA
         }
         payload = {
             'op': 'download2',
             'id': media_id,
-            'rand': '',
-            'referer': web_url,
-            'method_free': '',
-            'method_premium': ''
+            'referer': rurl
         }
-        resp = self.net.http_POST(web_url, form_data=payload, headers=headers).get_url()
-        if resp:
-            return resp + helpers.append_headers(headers)
+        html = self.net.http_POST(web_url, form_data=payload, headers=headers).content
+        url = re.search(r'id="uniqueExpirylink"\s*href="([^"]+)', html)
+        if url:
+            return url.group(1).replace(' ', '%20') + helpers.append_headers(headers)
 
         raise ResolverError('File Not Found or Removed')
 

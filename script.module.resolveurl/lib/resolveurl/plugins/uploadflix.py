@@ -1,6 +1,6 @@
 """
     Plugin for ResolveUrl
-    Copyright (C) 2015 tknorris
+    Copyright (C) 2021 shellc0de
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -9,41 +9,43 @@
 
     This program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    along with this program. If not, see <http://www.gnu.org/licenses/>.
 """
 
+import re
 from resolveurl import common
 from resolveurl.plugins.lib import helpers
 from resolveurl.resolver import ResolveUrl, ResolverError
 
 
-class TusfilesResolver(ResolveUrl):
-    name = 'tusfiles'
-    domains = ['tusfiles.net', 'tusfiles.com']
-    pattern = r'(?://|\.)(tusfiles\.(?:net|com))/(?:embed-)?([0-9a-zA-Z]+)'
+class UploadFlixResolver(ResolveUrl):
+    name = 'uploadflix'
+    domains = ['uploadflix.org']
+    pattern = r'(?://|\.)(uploadflix\.org)/([0-9a-zA-Z]+)'
 
     def get_media_url(self, host, media_id):
         web_url = self.get_url(host, media_id)
-        headers = {
-            'Origin': web_url.rsplit('/', 1)[0],
-            'Referer': web_url,
-            'User-Agent': common.RAND_UA
-        }
+        headers = {'User-Agent': common.RAND_UA}
+        r = self.net.http_GET(web_url, headers=headers)
+        html = r.content
+        if '>No such file<' in html or '>File Not Found<' in html:
+            raise ResolverError('No such file available')
+        url = r.get_url()
         payload = {
             'op': 'download2',
             'id': media_id,
             'rand': '',
-            'referer': web_url,
-            'method_free': '',
-            'method_premium': ''
+            'referer': url
         }
-        resp = self.net.http_POST(web_url, form_data=payload, headers=headers).get_url()
-        if resp:
-            return resp + helpers.append_headers(headers)
+        headers.update({'Origin': web_url.rsplit('/', 1)[0], 'Referer': url})
+        html = self.net.http_POST(url, form_data=payload, headers=headers).content
+        source = re.search(r'href="([^"]+)"\s*class="downloadbtn', html)
+        if source:
+            return source.group(1).replace(' ', '%20') + helpers.append_headers(headers)
 
         raise ResolverError('File Not Found or Removed')
 

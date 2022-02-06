@@ -1,6 +1,6 @@
 """
-    Plugin for ResolveURL
-    Copyright (C) 2020 gujal
+    Plugin for ResolveUrl
+    Copyright (C) 2022 gujal
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -17,12 +17,18 @@
 """
 
 from resolveurl.plugins.__resolve_generic__ import ResolveGeneric
+from resolveurl.plugins.lib import helpers
 
 
-class EnterVideoResolver(ResolveGeneric):
-    name = 'entervideo'
-    domains = ['entervideo.net', 'eplayvid.com', 'eplayvid.net']
-    pattern = r'(?://|\.)((?:entervideo|eplayvid)\.(?:com|net))/(?:watch/)?([0-9a-zA-Z]+)'
+class TurboVIPlayResolver(ResolveGeneric):
+    name = "turboviplay"
+    domains = ['turboviplay.com', 'emturbovid.com']
+    pattern = r'(?://|\.)((?:turboviplay|emturbovid)\.com)/t/([0-9a-zA-Z]+)'
+
+    def get_media_url(self, host, media_id):
+        return helpers.get_media_url(self.get_url(host, media_id),
+                                     patterns=[r'''urlPlay\s*=\s*['"](?P<url>[^"']+)'''],
+                                     generic_patterns=False)
 
     def get_url(self, host, media_id):
-        return self._default_get_url(host, media_id, template='http://eplayvid.net/watch/{media_id}')
+        return self._default_get_url(host, media_id, template='https://{host}/t/{media_id}')

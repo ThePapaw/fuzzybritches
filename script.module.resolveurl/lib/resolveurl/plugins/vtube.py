@@ -1,6 +1,6 @@
 """
     Plugin for ResolveUrl
-    Copyright (C) 2019 gujal
+    Copyright (C) 2021 shellc0de
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -20,13 +20,15 @@ from resolveurl.plugins.__resolve_generic__ import ResolveGeneric
 from resolveurl.plugins.lib import helpers
 
 
-class SendVidResolver(ResolveGeneric):
-    name = 'sendvid.com'
-    domains = ['sendvid.com']
-    pattern = r'(?://|\.)(sendvid\.com)/(?:embed/)?([0-9a-zA-Z]+)'
+class VTubeResolver(ResolveGeneric):
+    name = 'vtube'
+    domains = ['vtube.to']
+    pattern = r'(?://|\.)(vtube\.to)/(?:embed-)?([0-9a-zA-Z]+)'
 
     def get_media_url(self, host, media_id):
-        return helpers.get_media_url(self.get_url(host, media_id), patterns=[r'''source\s*src="(?P<url>[^"]+)'''])
+        return helpers.get_media_url(self.get_url(host, media_id),
+                                     patterns=[r'''sources:\s*\[{file:\s*["'](?P<url>[^"']+)'''],
+                                     generic_patterns=False)
 
     def get_url(self, host, media_id):
-        return self._default_get_url(host, media_id, template='https://{host}/{media_id}')
+        return self._default_get_url(host, media_id, template='https://{host}/embed-{media_id}.html')
