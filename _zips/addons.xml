@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.forceclose.psmc" name="[COLOR crimson]â€¢ [/COLOR]Force Close PSMC[COLOR crimson] â€¢[/COLOR]" version="1.0.1" provider-name="The Papaw">
+  <requires>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Force Close PSMC</summary>
+        <description lang="en_GB">Part of the PSMC Collection</description>
+        <platform>all</platform>
+        <license>CC BY-NC-SA 4.0</license>
+        <forum />
+		<website>https://github.com/ThePapaw/fuzzybritches</website>
+		<source>https://github.com/ThePapaw/fuzzybritches</source>
+        <disclaimer lang="en_GB"></disclaimer>
+        <assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+        </assets>
+        <news>1.0.0[CR][COLOR crimson]â€¢ [/COLOR]Initial release</news>
+    </extension>
+</addon>
+
 <addon id="plugin.program.psmcmaintenance"
 	     name="PSMC Maintenance"
 	     version="1.0.9"
@@ -113,7 +136,7 @@
     </extension>
 </addon>
 
-    <addon id="repository.fuzzybritches" name="Fuzzy Britches Repository" version="1.0.29" provider-name="The Papaw">
+    <addon id="repository.fuzzybritches" name="Fuzzy Britches Repository" version="1.0.30" provider-name="The Papaw">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -131,7 +154,7 @@
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>The Official Fuzzy Britches Repository.</summary>
-            <description>This is the  "Official" repository for the Fuzzy Britches addon for Kodi.[CR]- [COLOR yellow]New Animated skins added![/COLOR]</description>
+            <description>This is the  "Official" repository for the Fuzzy Britches addon for PSMC.[CR]- [COLOR yellow]New Animated skins added![/COLOR]</description>
             <platform>all</platform>
             <genre>movies,usa</genre>
 			<license>CC BY-NC-SA 4.0</license>
@@ -140,10 +163,11 @@
 			<source>https://github.com/ThePapaw/fuzzybritches</source>
 			<video_guide></video_guide>
 		<assets>
+			<icon>icon.gif</icon>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news>[COLOR yellow]All Skins updated and completely redesigned[/COLOR][CR]- [COLOR yellow]NEW Animated skins added![/COLOR][CR]- [COLOR yellow]Added Fuzzy Britches v2[/COLOR]</news>
+		<news></news>
         </extension>
     </addon>
 
@@ -172,7 +196,7 @@
 			<icon>icon.gif</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news>[COLOR yellow]All Skins updated and completely redesigned[/COLOR][CR]- [COLOR yellow]NEW Animated skins added![/COLOR]</news>
+		<news></news>
     </extension>
 </addon>
 

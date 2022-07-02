@@ -24,6 +24,6 @@
 			<icon>icon.gif</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news>[COLOR yellow]All Skins updated and completely redesigned[/COLOR][CR]- [COLOR yellow]NEW Animated skins added![/COLOR]</news>
+		<news></news>
     </extension>
 </addon>
