@@ -365,6 +365,18 @@ Please give credit to all the devolopers that have and do contribute!
   </extension>
 </addon>
 
+<addon id="resource.uisounds.psmc.max" version="1.0.1" name="PSMC Max Sounds" provider-name="The Papaw">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">PSMC Max Sounds</summary>
+    <description lang="en">Designed to compliment the PSMC Max Skin</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="resource.uisounds.robot-voices" version="1.0.0" name="Robot Voices UI Sounds" provider-name="The Papaw">
   <requires>
     <import addon="kodi.resource" version="1.0.0"/>
