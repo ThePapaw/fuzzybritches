@@ -2,7 +2,9 @@
 This repository is primarily for the development of PSMC/Kodi addons forked, modified, created, designed or hosted by "The Papaw".
 All items hosted here are for learning and educational purposes only. They include:
 
-• <B>Fuzzy Britches v1</B> (Exodus type). <BR>
+• <B>Fuzzy Britches v3</B> <BR>
+• <B>PSMC Force Close</B> (Utility to force close PSMC (or Kodi). <BR>
+• <B>Fuzzy Britches v1</B> (No longer updated). <BR>
 • <B>Kids Cove</B> (Jen based)<BR>
 • <B>PSMC Maintenance</B> (Maintenance Program)<BR>
 • <B>Various Skins - see below</B> (Usually themed from the Aeon-nox Sylvo v7.9.5 skin)<BR>
@@ -18,6 +20,7 @@ Features include: Auto delete of cache at start up (optional), notifies when pac
 
 Most of them now include <B>Home Screen Animation</B> (can be toggled off), additional Falling Seasons, GUI Sounds and other various changes.  (If you wish to use the included <B>GUI Sounds</B> for a particular skin, they are installed with the skin, but you will need to Enable them in the media player's system settings) The PSMC skins include:
 
+• <B>PSMC Max Skin</B> - Modern skin with muliple themes to choose from, extremely configurable (GUI sounds available). <BR>
 • <B>PSMC's Silvo Skin</B> - A general Aeon Nox SiLVO skin themed for PSMC. <BR>
 • <B>PSMC's Spiderman Skin</B> - Updated and redesigned (includes animations & GUI sounds). <BR>
 • <B>PSMC's Man of Steel Skin</B> - Updated and redesigned (includes animations & GUI sounds)<BR>
@@ -34,7 +37,7 @@ If you have issues, please post them here. All items are still being developed a
 
   
 To Install:
-1. Download the repository. <a href="https://github.com/ThePapaw/fuzzybritches/blob/master/_zips/repository.fuzzybritches/repository.fuzzybritches-1.0.29.zip?raw=true">CLICK HERE</a>
+1. Download the repository. <a href="https://github.com/ThePapaw/fuzzybritches/blob/master/_zips/repository.fuzzybritches/repository.fuzzybritches-1.0.32.zip?raw=true">CLICK HERE</a>
 
 2. Install "from zip file" in Kodi as you would any other downloaded addon.
 
