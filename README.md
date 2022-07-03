@@ -7,7 +7,7 @@ All items hosted here are for learning and educational purposes only. They inclu
 • <B>Fuzzy Britches v1</B> (No longer updated). <BR>
 • <B>Kids Cove</B> (Jen based)<BR>
 • <B>PSMC Maintenance</B> (Maintenance Program)<BR>
-• <B>Various Skins - see below</B> (Usually themed from the Aeon-nox Sylvo v7.9.5 skin)<BR>
+• <B>Various Skins - see below</B> <BR>
 
 • The Fuzzy Britches v1 addon has been ported and patched together from various other Exodus type addons. Please give credit to their respective developers. <B>Make sure to read NEWS section for best results!</B>
 
@@ -29,7 +29,7 @@ Most of them now include <B>Home Screen Animation</B> (can be toggled off), addi
 • <B>PSMC's Scooby-Doo Skin</B> - ***NEW Design** (includes animations & GUI sounds). <BR>
 • <B>PSMC's Toy Story Skin</B> - ***NEW Design** (includes animations & GUI sounds). <BR>
 
-•  •  • *(The PSMC Intro video is enabled in the Startup.xml file. To disable it, delete line #12 in the Startup.xml, then turn it Off in the skin settings Extras section)* •  •  • 
+•  •  • *(Older skins have The PSMC Intro video is enabled in the Startup.xml file. To disable it, delete line #12 in the Startup.xml, then turn it Off in the skin settings Extras section)* •  •  • 
 
 The Addons and Skins hosted here are considered 3rd party, so please do not seek help from Kodi, the Kodi forums, etc.. If you would like to try PSMC, it can be installed by adding the PSMC Repo from 'Add-on repositories' section of the Fuzzy Britches Repo.
 
