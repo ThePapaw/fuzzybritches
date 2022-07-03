@@ -1,5 +1,5 @@
 """
-    Plugin for ResolveUrl
+    Plugin for ResolveURL
     Copyright (C) 2015 tknorris
 
     This program is free software: you can redistribute it and/or modify
@@ -17,12 +17,12 @@
 """
 
 from resolveurl import common
-from resolveurl.plugins.lib import helpers
+from resolveurl.lib import helpers
 from resolveurl.resolver import ResolveUrl, ResolverError
 
 
-class TusfilesResolver(ResolveUrl):
-    name = 'tusfiles'
+class TusFilesResolver(ResolveUrl):
+    name = 'TusFiles'
     domains = ['tusfiles.net', 'tusfiles.com']
     pattern = r'(?://|\.)(tusfiles\.(?:net|com))/(?:embed-)?([0-9a-zA-Z]+)'
 
@@ -42,7 +42,7 @@ class TusfilesResolver(ResolveUrl):
             'method_premium': ''
         }
         resp = self.net.http_POST(web_url, form_data=payload, headers=headers).get_url()
-        if resp:
+        if resp != web_url:
             return resp + helpers.append_headers(headers)
 
         raise ResolverError('File Not Found or Removed')

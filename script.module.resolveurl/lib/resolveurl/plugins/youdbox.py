@@ -1,5 +1,5 @@
 """
-    Plugin for ResolveUrl
+    Plugin for ResolveURL
     Copyright (C) 2020 gujal
 
     This program is free software: you can redistribute it and/or modify
@@ -20,6 +20,6 @@ from resolveurl.plugins.__resolve_generic__ import ResolveGeneric
 
 
 class YouDBoxResolver(ResolveGeneric):
-    name = 'youdbox'
+    name = 'YouDBox'
     domains = ['youdbox.com', 'youdbox.net', 'youdbox.org', 'yodbox.com']
     pattern = r'(?://|\.)(you?dbox\.(?:com|net|org))/(?:embed-)?(\w+)'

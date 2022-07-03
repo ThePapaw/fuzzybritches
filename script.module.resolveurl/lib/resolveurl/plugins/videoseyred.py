@@ -1,5 +1,5 @@
 """
-    Plugin for ResolveUrl
+    Plugin for ResolveURL
     Copyright (C) 2020 gujal
 
     This program is free software: you can redistribute it and/or modify
@@ -19,14 +19,14 @@
 import re
 import json
 from resolveurl import common
-from resolveurl.plugins.lib import helpers
+from resolveurl.lib import helpers
 from resolveurl.resolver import ResolveUrl, ResolverError
 
 
 class VideoSeyredResolver(ResolveUrl):
-    name = "videoseyred"
+    name = 'VideoSeyred'
     domains = ['videoseyred.in']
-    pattern = r'(?://|\.)(videoseyred\.in)/embed/([0-9a-zA-Z]+)'
+    pattern = r'(?://|\.)(videoseyred\.in)/(?:embed/)?([0-9a-zA-Z]+)'
 
     def get_media_url(self, host, media_id):
         web_url = self.get_url(host, media_id)

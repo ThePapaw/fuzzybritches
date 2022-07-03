@@ -1,5 +1,5 @@
 """
-    plugin for ResolveURL
+    Plugin for ResolveURL
     Copyright (C) 2021 gujal
 
     This program is free software: you can redistribute it and/or modify
@@ -15,21 +15,26 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
+
 import re
 import json
-from resolveurl.plugins.lib import helpers
+from resolveurl.lib import helpers
 from resolveurl import common
 from resolveurl.resolver import ResolveUrl, ResolverError
 
 
 class StreamCommunityResolver(ResolveUrl):
-    name = "streamcommunity"
+    name = 'StreamCommunity'
     domains = ['streamingcommunity.xyz', 'streamingcommunity.one', 'streamingcommunity.vip',
                'streamingcommunity.work', 'streamingcommunity.name', 'streamingcommunity.video',
                'streamingcommunity.live', 'streamingcommunity.tv', 'streamingcommunity.space',
                'streamingcommunity.art', 'streamingcommunity.fun', 'streamingcommunity.website',
-               'streamingcommunity.host']
-    pattern = r'(?://|\.)(streamingcommunity\.(?:one|xyz|video|vip|work|name|live|tv|space|art|fun|website|host))/watch/(\d+(?:\?e=)?\d+)'
+               'streamingcommunity.host', 'streamingcommunity.site', 'streamingcommunity.bond',
+               'streamingCommunity.icu', 'streamingcommunity.bar', 'streamingcommunity.top',
+               'streamingcommunity.cc', 'streamingcommunity.monster', 'streamingcommunity.press']
+    pattern = r'(?://|\.)(streamingcommunity\.' \
+        r'(?:one|xyz|video|vip|work|name|live|tv|space|art|fun|website|host|site|bond|icu|bar|top|cc|monster|press))' \
+        r'/watch/(\d+(?:\?e=)?\d+)'
 
     def get_media_url(self, host, media_id):
         web_url = self.get_url(host, media_id)
@@ -38,7 +43,7 @@ class StreamCommunityResolver(ResolveUrl):
         match = re.search(r'''<video-player.+?scws_id[^\d]+(\d+)''', html, re.DOTALL)
         if match:
             scws_id = match.group(1)
-            headers.update({'Referer': 'https://streamingcommunity.host/'})
+            headers.update({'Referer': web_url})
             html = self.net.http_GET('https://scws.xyz/videos/' + scws_id, headers=headers).content
             a = json.loads(html).get('client_ip')
             url = 'https://scws.xyz/master/{0}?{1}'.format(scws_id, self.get_token(a))
@@ -47,7 +52,7 @@ class StreamCommunityResolver(ResolveUrl):
         raise ResolverError('Video Link Not Found')
 
     def get_url(self, host, media_id):
-        return self._default_get_url(host, media_id, template='https://streamingcommunity.host/watch/{media_id}')
+        return self._default_get_url(host, media_id, template='https://streamingcommunity.press/watch/{media_id}')
 
     def get_token(self, a):
         import time

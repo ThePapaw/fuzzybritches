@@ -1,5 +1,5 @@
 """
-    Plugin for ResolveUrl
+    Plugin for ResolveURL
     Copyright (C) 2020 gujal
 
     This program is free software: you can redistribute it and/or modify
@@ -17,15 +17,15 @@
 """
 
 import re
-from resolveurl.plugins.lib import helpers
+from resolveurl.lib import helpers
 from resolveurl.resolver import ResolveUrl, ResolverError
 from resolveurl import common
 from six.moves import urllib_parse
 
 
 class VlalaComResolver(ResolveUrl):
-    name = "vlalacom"
-    domains = ["videoslala.com"]
+    name = 'VlalaCom'
+    domains = ['videoslala.com']
     pattern = r'(?://|\.)(videoslala\.com)/v/([^\n]+)'
 
     def get_media_url(self, host, media_id):

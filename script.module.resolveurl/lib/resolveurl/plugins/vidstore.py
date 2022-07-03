@@ -1,7 +1,6 @@
-# -*- coding: UTF-8 -*-
 """
     Plugin for ResolveURL
-    Copyright (C) 2017  zlootec
+    Copyright (C) 2017 zlootec
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -18,14 +17,14 @@
 """
 
 import re
-from resolveurl.plugins.lib import helpers
+from resolveurl.lib import helpers
 from resolveurl import common
 from resolveurl.resolver import ResolveUrl, ResolverError
 
 
-class VidstoreResolver(ResolveUrl):
-    name = "vidstore"
-    domains = ["vidstore.me"]
+class VidStoreResolver(ResolveUrl):
+    name = 'VidStore'
+    domains = ['vidstore.me']
     pattern = r'(?://|\.)(vidstore\.me)/(.+)'
 
     def get_media_url(self, host, media_id):

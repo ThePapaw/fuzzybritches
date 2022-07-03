@@ -1,5 +1,5 @@
 """
-    Plugin for ResolveUrl
+    Plugin for ResolveURL
     Copyright (C) 2020 gujal
 
     This program is free software: you can redistribute it and/or modify
@@ -15,14 +15,15 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
+
 import re
 from resolveurl import common
 from resolveurl.resolver import ResolveUrl, ResolverError
-from resolveurl.plugins.lib import helpers
+from resolveurl.lib import helpers
 
 
-class MailRuResolver(ResolveUrl):
-    name = "cloud.mail.ru"
+class CloudMailRuResolver(ResolveUrl):
+    name = 'CloudMailRu'
     domains = ['cloud.mail.ru']
     pattern = r'(?://|\.)(cloud\.mail\.ru)/public/([0-9A-Za-z]+/[^/]+)'
 

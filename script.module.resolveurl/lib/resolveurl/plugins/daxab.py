@@ -1,5 +1,5 @@
 """
-    Plugin for ResolveUrl
+    Plugin for ResolveURL
     Copyright (C) 2020 gujal
 
     This program is free software: you can redistribute it and/or modify
@@ -19,15 +19,15 @@
 import re
 import base64
 import json
-from resolveurl.plugins.lib import helpers
+from resolveurl.lib import helpers
 from resolveurl.resolver import ResolveUrl, ResolverError
 from resolveurl import common
 from six.moves import urllib_parse
 
 
 class DaxabResolver(ResolveUrl):
-    name = "daxab"
-    domains = ["daxab.com"]
+    name = 'Daxab'
+    domains = ['daxab.com']
     pattern = r'(?://|\.)(daxab\.com)/player/([^\n]+)'
 
     def get_media_url(self, host, media_id):

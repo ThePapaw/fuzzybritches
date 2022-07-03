@@ -1,5 +1,5 @@
 """
-    Plugin for ResolveUrl
+    Plugin for ResolveURL
     Copyright (C) 2016 gujal
 
     This program is free software: you can redistribute it and/or modify
@@ -15,15 +15,16 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
+
 import json
 import re
 from resolveurl import common
-from resolveurl.plugins.lib import helpers
+from resolveurl.lib import helpers
 from resolveurl.resolver import ResolveUrl, ResolverError
 
 
 class RuTubeResolver(ResolveUrl):
-    name = "rutube.ru"
+    name = 'RuTube'
     domains = ['rutube.ru']
     pattern = r'(?://|\.)(rutube\.ru)/(?:play/embed/|video/)([0-9a-zA-Z]+)'
 

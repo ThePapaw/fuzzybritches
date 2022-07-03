@@ -1,6 +1,6 @@
 """
     Plugin for ResolveURL
-    Copyright (C) 2021  script.module.resolveurl
+    Copyright (C) 2021 script.module.resolveurl
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -20,12 +20,12 @@ import json
 import re
 from six import iteritems
 from resolveurl import common
-from resolveurl.plugins.lib import helpers
+from resolveurl.lib import helpers
 from resolveurl.resolver import ResolveUrl, ResolverError
 
 
 class RumbleResolver(ResolveUrl):
-    name = 'rumble'
+    name = 'Rumble'
     domains = ['rumble.com']
     pattern = r'(?://|\.)(rumble\.com)/(?:embed/)?([^/\?]+)'
 

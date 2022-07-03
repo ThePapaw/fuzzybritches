@@ -1,4 +1,4 @@
-'''
+"""
     Plugin for ResolveURL
     Copyright (C) 2021 gujal
 
@@ -14,17 +14,17 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
-'''
+"""
 
 from resolveurl import common
 from resolveurl.resolver import ResolveUrl, ResolverError
-from resolveurl.plugins.lib import helpers
+from resolveurl.lib import helpers
 import json
 
 
 class VideoVardResolver(ResolveUrl):
-    name = "videovard"
-    domains = ["videovard.sx", "videovard.to"]
+    name = 'VideoVard'
+    domains = ['videovard.sx', 'videovard.to']
     pattern = r'(?://|\.)(videovard\.(?:sx|to))/[ved]/([0-9a-zA-Z]+)'
 
     def get_media_url(self, host, media_id):

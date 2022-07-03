@@ -1,7 +1,6 @@
 """
     Plugin for ResolveURL
-    Copyright (C) 2017 tknorris
-    Copyright (C) 2018 gujal
+    Copyright (C) 2017 tknorris, gujal
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -16,16 +15,17 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
+
 import re
 import json
 import random
-from resolveurl.plugins.lib import helpers
+from resolveurl.lib import helpers
 from resolveurl import common
 from resolveurl.resolver import ResolveUrl, ResolverError
 
 
 class StreamableResolver(ResolveUrl):
-    name = "Streamable"
+    name = 'Streamable'
     domains = ['streamable.com']
     pattern = r'(?://|\.)(streamable\.com)/(?:s/)?([a-zA-Z0-9]+(?:/[a-zA-Z0-9]+)?)'
 

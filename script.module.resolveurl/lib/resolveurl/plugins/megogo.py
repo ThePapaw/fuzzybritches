@@ -17,14 +17,14 @@
 """
 
 import json
-from resolveurl.plugins.lib import helpers
+from resolveurl.lib import helpers
 from resolveurl import common
 from resolveurl.resolver import ResolveUrl, ResolverError
 
 
 class MeGoGoResolver(ResolveUrl):
-    name = "megogo"
-    domains = ["megogo.net", "megogo.ru"]
+    name = 'MeGoGo'
+    domains = ['megogo.net', 'megogo.ru']
     pattern = r'(?://|\.)(megogo\.(?:net|ru))/.+?(?:id=|view/)(\d+)'
 
     def get_media_url(self, host, media_id):

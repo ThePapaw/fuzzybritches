@@ -38,7 +38,7 @@ from resolveurl.plugins.__resolve_generic__ import ResolveGeneric
 from resolveurl.plugins import *  # NOQA
 
 common.logger.log_debug('Initializing ResolveURL version: %s' % common.addon_version)
-MAX_SETTINGS = 75
+MAX_SETTINGS = 60
 
 PLUGIN_DIRS = []
 host_cache = {}
@@ -94,7 +94,7 @@ def relevant_resolvers(domain=None, include_universal=None, include_popups=None,
     return relevant
 
 
-def resolve(web_url):
+def resolve(web_url, return_all=False):
     """
     Resolve a web page to a media stream.
 
@@ -124,7 +124,7 @@ def resolve(web_url):
         If the ``web_url`` could be resolved, a string containing the direct
         URL to the media file, if not, returns ``False``.
     """
-    source = HostedMediaFile(url=web_url)
+    source = HostedMediaFile(url=web_url, return_all=return_all)
     return source.resolve()
 
 
@@ -246,6 +246,37 @@ def display_settings():
     common.open_settings()
 
 
+def cleanup_settings():
+    settings_file = common.user_settings_file
+
+    if xbmcvfs.exists(settings_file):
+        # get list of supported resolvers
+        supp_resolvers = relevant_resolvers(include_universal=True, include_popups=True, include_disabled=True)
+        supp_resolvers = [i.__name__ for i in supp_resolvers]
+
+        if six.PY3:
+            with open(settings_file, 'r', encoding='utf-8') as f:
+                settings_xml = f.read()
+        else:
+            with open(settings_file, 'r') as f:
+                settings_xml = f.read()
+
+        resolvers = set(re.findall(r'id="([A-Z][^"_]+)', settings_xml))
+        for resolver in resolvers:
+            if resolver not in supp_resolvers:
+                settings_xml = re.sub(r'\s{{4}}<setting\s*id="{0}.*\n'.format(resolver), '', settings_xml)
+
+        if six.PY3:
+            with open(settings_file, 'w', encoding='utf-8') as f:
+                f.write(settings_xml)
+        else:
+            with open(settings_file, 'w') as f:
+                f.write(settings_xml.encode('utf8'))
+        return True
+
+    return False
+
+
 def _update_settings_xml():
     """
     This function writes a new ``resources/settings.xml`` file which contains
@@ -269,15 +300,24 @@ def _update_settings_xml():
         '\t\t<setting id="last_ua_create" label="last_ua_create" type="number" visible="false" default="0"/>',
         '\t\t<setting id="current_ua" label="current_ua" type="text" visible="false" default=""/>',
         '\t\t<setting id="addon_debug" label="addon_debug" type="bool" visible="false" default="false"/>',
+        '\t\t<setting id="clean_settings" type="action" label="%s" action="RunPlugin(plugin://script.module.resolveurl/?mode=clean_settings)"/>' % (common.i18n('clean_settings')),
         '\t</category>',
-        '\t<category label="%s">' % (common.i18n('universal_resolvers'))]
+        '\t<category label="%s 1">' % (common.i18n('universal_resolvers'))]
 
+    i = 0
+    cat_count = 2
     resolvers = relevant_resolvers(include_universal=True, include_disabled=True)
     resolvers = sorted(resolvers, key=lambda x: x.name.upper())
     for resolver in resolvers:
         if resolver.isUniversal():
             new_xml.append('\t\t<setting label="%s" type="lsep"/>' % resolver.name)
             new_xml += ['\t\t' + line for line in resolver.get_settings_xml()]
+            i += 1
+        if i > 4:
+            new_xml.append('\t</category>')
+            new_xml.append('\t<category label="%s %s">' % (common.i18n('universal_resolvers'), cat_count))
+            cat_count += 1
+            i = 0
     new_xml.append('\t</category>')
     new_xml.append('\t<category label="%s 1">' % (common.i18n('resolvers')))
 
@@ -321,6 +361,9 @@ def _update_settings_xml():
                     f.write(new_xml.encode('utf8'))
         except:
             raise
+        if cleanup_settings():
+            common.logger.log_debug('Cleaned User Settings XML')
+
     else:
         common.logger.log_debug('No Settings Update Needed')
 

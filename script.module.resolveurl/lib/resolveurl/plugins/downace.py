@@ -15,11 +15,12 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
+
 from resolveurl.plugins.__resolve_generic__ import ResolveGeneric
 
 
-class DownaceResolver(ResolveGeneric):
-    name = 'downace'
+class DownAceResolver(ResolveGeneric):
+    name = 'DownAce'
     domains = ['downace.com']
     pattern = r'(?://|\.)(downace\.com)/(?:embed/)?([0-9a-zA-Z]+)'
 

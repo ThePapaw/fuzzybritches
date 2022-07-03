@@ -1,5 +1,5 @@
 """
-    Plugin for ResolveUrl
+    Plugin for ResolveURL
     Copyright (C) 2020 gujal
 
     This program is free software: you can redistribute it and/or modify
@@ -17,19 +17,21 @@
 """
 
 from resolveurl.plugins.__resolve_generic__ import ResolveGeneric
-from resolveurl.plugins.lib import helpers
+from resolveurl.lib import helpers
 
 
 class MyFeministResolver(ResolveGeneric):
-    name = 'myfeminist'
+    name = 'MyFeminist'
     domains = ['myfeminist.com']
     pattern = r'(?://|\.)(myfeminist\.com)/(?:embed-)?([a-zA-z0-9]+)'
 
     def get_media_url(self, host, media_id):
-        return helpers.get_media_url(self.get_url(host, media_id),
-                                     patterns=[r'''sources:\s*\[{file:\s*"(?P<url>[^"]+)'''],
-                                     generic_patterns=False,
-                                     referer=False)
+        return helpers.get_media_url(
+            self.get_url(host, media_id),
+            patterns=[r'''sources:\s*\[{file:\s*"(?P<url>[^"]+)'''],
+            generic_patterns=False,
+            referer=False
+        )
 
     def get_url(self, host, media_id):
         return self._default_get_url(host, media_id, template='https://{host}/embed-{media_id}.html')

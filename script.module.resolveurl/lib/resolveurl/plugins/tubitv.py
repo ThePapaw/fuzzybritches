@@ -1,8 +1,5 @@
 """
-    OVERALL CREDIT TO:
-        t0mm0, Eldorado, VOINAGE, BSTRDMKR, tknorris, smokdpi, TheHighway
-
-    Plugin for ResolveUrl
+    Plugin for ResolveURL
     Copyright (C) 2011 t0mm0
 
     This program is free software: you can redistribute it and/or modify
@@ -21,13 +18,13 @@
 
 import re
 import json
-from resolveurl.plugins.lib import helpers
+from resolveurl.lib import helpers
 from resolveurl import common
 from resolveurl.resolver import ResolveUrl, ResolverError
 
 
 class TubiTvResolver(ResolveUrl):
-    name = "TubiTV"
+    name = 'TubiTV'
     domains = ['tubitv.com']
     pattern = r'(?://|\.)(tubitv\.com)/(?:video|embed)/(\d+)'
 

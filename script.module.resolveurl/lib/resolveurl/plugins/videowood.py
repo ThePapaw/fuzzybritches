@@ -1,5 +1,5 @@
 """
-    Plugin for ResolveUrl
+    Plugin for ResolveURL
     Copyright (C) 2015 tknorris
 
     This program is free software: you can redistribute it and/or modify
@@ -17,14 +17,13 @@
 """
 
 import re
-from resolveurl.plugins.lib import aadecode
 from resolveurl import common
-from resolveurl.plugins.lib import helpers
+from resolveurl.lib import helpers, aadecode
 from resolveurl.resolver import ResolveUrl, ResolverError
 
 
-class VideowoodResolver(ResolveUrl):
-    name = "videowood"
+class VideoWoodResolver(ResolveUrl):
+    name = 'VideoWood'
     domains = ['videowood.tv']
     pattern = r'(?://|\.)(videowood\.tv)/(?:embed/|video/)([0-9a-z]+)'
 
@@ -32,10 +31,6 @@ class VideowoodResolver(ResolveUrl):
         web_url = self.get_url(host, media_id)
         headers = {'Referer': web_url, 'User-Agent': common.FF_USER_AGENT}
         html = self.net.http_GET(web_url, headers=headers).content
-        try:
-            html = html.encode('utf-8')
-        except:
-            pass
         if "This video doesn't exist." in html:
             raise ResolverError('The requested video was not found.')
 

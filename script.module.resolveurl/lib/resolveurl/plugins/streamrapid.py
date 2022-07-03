@@ -20,13 +20,13 @@ import re
 import json
 import base64
 from six.moves import urllib_parse
-from resolveurl.plugins.lib import helpers
+from resolveurl.lib import helpers
 from resolveurl import common
 from resolveurl.resolver import ResolveUrl, ResolverError
 
 
 class StreamRapidResolver(ResolveUrl):
-    name = "streamrapid"
+    name = 'StreamRapid'
     domains = ['streamrapid.ru', 'rabbitstream.net']
     pattern = r'(?://|\.)((?:rabbitstream|streamrapid)\.(?:ru|net))/embed-([^\n]+)'
 
@@ -36,7 +36,7 @@ class StreamRapidResolver(ResolveUrl):
             referer = urllib_parse.urljoin(referer, '/')
         else:
             # Needs to be hard coded for now if nothing is passed in.
-            referer = 'https://streamrapid.ru/'
+            referer = 'https://{0}/'.format(host)
         web_url = self.get_url(host, media_id)
         rurl = urllib_parse.urljoin(web_url, '/')
         headers = {'User-Agent': common.FF_USER_AGENT,
@@ -47,7 +47,8 @@ class StreamRapidResolver(ResolveUrl):
         number = re.findall(r"recaptchaNumber\s*=\s*'(\d+)", html)
         if token and number:
             eid, media_id = media_id.split('/')
-            surl = '{}/ajax/embed-{}/getSources'.format(rurl[:-1], eid)
+            headers.update({'Referer': web_url, 'Accept': '*/*'})
+            surl = '{0}ajax/embed-{1}/getSources'.format(rurl, eid)
             if '?' in media_id:
                 media_id = media_id.split('?')[0]
             data = {'_number': number[0],
@@ -59,6 +60,8 @@ class StreamRapidResolver(ResolveUrl):
             if sources:
                 source = sources[0].get('file')
                 headers.pop('X-Requested-With')
+                headers.pop('Accept')
+                headers.update({'Referer': rurl, 'Origin': rurl[:-1]})
                 return source + helpers.append_headers(headers)
 
         raise ResolverError('File Not Found or removed')
