@@ -96,8 +96,8 @@
 </addon>
 
 <addon id="plugin.video.fuzzybritches_v3"
-       name="[COLORcrimson]â€¢â€¢ [/COLOR]Fuzzy Britches v3[COLORcrimson] â€¢â€¢[/COLOR]"
-       version="1.0.5"
+       name="[COLORcrimson]â€¢â€¢[/COLOR] Fuzzy Britches v3 [COLORcrimson]â€¢â€¢[/COLOR]"
+       version="1.0.6"
        provider-name="The Papaw">
     <requires>
         <import addon="script.fuzzybritches_v3.artwork" />
@@ -521,7 +521,7 @@ Please give credit to all the devolopers that have and do contribute!
 	</extension>
 </addon>
 
-<addon id="script.module.fuzzybritchesv3scrapers" version="1.0.5" name="Fuzzy Britches v3 Scrapers" provider-name="The Papaw">
+<addon id="script.module.fuzzybritchesv3scrapers" version="1.0.6" name="[COLOR crimson]â€¢[/COLOR] Fuzzy Britches v3 Scrapers [COLOR crimson]â€¢[/COLOR]" provider-name="The Papaw">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
@@ -529,7 +529,6 @@ Please give credit to all the devolopers that have and do contribute!
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
         <import addon="script.module.simplejson" />
-        <import addon="script.module.orion" optional="false" />
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py">

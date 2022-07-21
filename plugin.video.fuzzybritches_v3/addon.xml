@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.fuzzybritches_v3"
-       name="[COLORcrimson]•• [/COLOR]Fuzzy Britches v3[COLORcrimson] ••[/COLOR]"
-       version="1.0.5"
+       name="[COLORcrimson]••[/COLOR] Fuzzy Britches v3 [COLORcrimson]••[/COLOR]"
+       version="1.0.6"
        provider-name="The Papaw">
     <requires>
         <import addon="script.fuzzybritches_v3.artwork" />
