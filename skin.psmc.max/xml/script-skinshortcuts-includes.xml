@@ -5,7 +5,7 @@
 			<label>$LOCALIZE[20343]</label>
 			<label2 />
 			<icon>special://skin/extras/icons/DefaultTVShows.png</icon>
-			<thumb>special://skin/extras/media/global_bingie.jpg</thumb>
+			<thumb>special://skin/extras/media/global_max.jpg</thumb>
 			<property name="labelID">tvshows</property>
 			<property name="defaultID">tvshows</property>
 			<property name="widget">Playlist</property>

@@ -59,8 +59,8 @@
     <include file="IncludesHubs.xml" />
     <include file="IncludesMaxKeyboard.xml"/>
     <include file="IncludesMaxSearch.xml"/>
-    <include file="IncludesHomeTitanTiles.xml" />
-    <include file="IncludesHomeTitanTilesSubMenu.xml" />
+    <include file="IncludesHomeMax.xml" />
+    <include file="IncludesHomeMaxSubMenu.xml" />
 	<include file="IncludesHomeEnhanced.xml" />
 	<include file="IncludesHomeHorizontal.xml" />
 	<include file="IncludesHomeVertical.xml" />

@@ -1272,9 +1272,11 @@ v1.0.1 (2019-08-06)
 	</extension>
 </addon>
 
-<addon id="skin.psmc.max" version="1.0.6" name="[COLOR crimson]â€¢â€¢ [/COLOR]PSMC Max[COLOR crimson] â€¢â€¢[/COLOR]" provider-name="The Papaw">
+<addon id="skin.psmc.max" version="1.1.5" name="[COLOR crimson]â€¢â€¢ [/COLOR]PSMC Max[COLOR crimson] â€¢â€¢[/COLOR]" provider-name="The Papaw">
 	<requires>
+		<import version="5.14.0" addon="xbmc.gui"/>
 		<import addon="script.skinshortcuts" version="0.6.5"/>
+		<import addon="script.max.helper" version="0.1.0"/>
 		<import addon="script.skin.helper.service" version="1.0.0"/>
         <import addon="script.skin.helper.widgets" version="1.0.0"/>
         <import addon="script.skin.helper.backgrounds" version="1.0.0"/>
@@ -1287,7 +1289,7 @@ v1.0.1 (2019-08-06)
 		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">PSMC Max... A new skin for PSMC or Kodi.</summary>
+		<summary lang="en_GB">PSMC Max... A new skin designed for PSMC-19 or Kodi.</summary>
 		<description>Designed for PSMC or Kodi. Many design layouts to choose from including the PSMC Max layout! This skin was forked from the Bingie Mod. Please give credit to all those involved in making that mod!</description>
 		<platform>all</platform>
 		<license>CC BY-NC-SA 4.0</license>
@@ -1296,7 +1298,6 @@ v1.0.1 (2019-08-06)
 		<source>https://github.com/ThePapaw/psmc</source>
 		<email></email>
 		<assets>
-			<icon>resources/icon.gif</icon>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
 			<screenshot>resources/screenshot000.jpg</screenshot>
@@ -1312,7 +1313,7 @@ v1.0.1 (2019-08-06)
             <screenshot>resources/screenshot010.jpg</screenshot>
 		</assets>
 		<news>
-			[B]PSMC Max[/B][CR]Designed for PSMC (or Kodi). For updates visit:[CR]https://github.com/ThePapaw/psmc
+			[B]PSMC Max[/B][CR]Designed to use with PSMC-19 (or Kodi). For updates visit:[CR]https://github.com/ThePapaw/psmc
 		</news>
 	</extension>
 </addon>

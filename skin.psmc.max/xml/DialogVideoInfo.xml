@@ -24,7 +24,7 @@
 
     <controls>
         <include condition="Skin.HasSetting(UseMaxInfoDialog) + !Skin.HasSetting(UseExtendedInfoDialog)">MaxInfo</include>
-        <include condition="!Skin.HasSetting(UseMaxInfoDialog) + !Skin.HasSetting(UseExtendedInfoDialog)">TitanInfo</include>
+        <include condition="!Skin.HasSetting(UseMaxInfoDialog) + !Skin.HasSetting(UseExtendedInfoDialog)">MaxInfo</include>
 		<include condition="Skin.HasSetting(DebugGrid) | Skin.HasSetting(DebugInfo)">DebugInfo</include>
 	</controls>
 </window>

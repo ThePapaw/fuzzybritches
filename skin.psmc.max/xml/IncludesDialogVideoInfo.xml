@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- PSMC Max -->
 <includes>
-	<include name="TitanInfo">
+	<include name="MaxInfo">
 		<control type="group">
             <include>GlobalBackground</include>
             <include condition="!Skin.HasSetting(DisableNowPlayingBackground)">NowPlayingBackground</include>

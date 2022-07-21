@@ -69,7 +69,7 @@
 	
 		<!-- Home Screen -->
         <include condition="String.IsEqual(Skin.String(HomeLayout),max)">HomeMax</include>
-        <include condition="$EXP[IsTilesLayout]">HomeTitanTiles</include>
+        <include condition="$EXP[IsTilesLayout]">HomeMax</include>
         <include condition="$EXP[IsHorizontalLayout]">HorizontalHome</include>
         <include condition="$EXP[IsVerticalLayout]">VerticalHome</include>
         <include condition="String.IsEqual(Skin.String(HomeLayout),enhanced)">EnhancedHome</include>

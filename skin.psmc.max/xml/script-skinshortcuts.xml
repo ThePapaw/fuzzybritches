@@ -870,7 +870,7 @@
     </control>
 	<!--Footer-->
         <include condition="!Skin.HasSetting(nofooterbar)">Footer</include>
-		<!--Titan max Version-->
+		<!--Max max Version-->
         <include>MaxVersion</include>
 		
 	</controls>
