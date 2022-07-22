@@ -2,7 +2,7 @@
 <addon id="plugin.video.usgotv"
        name="USGoTv"
        version="22.4.26"
-       provider-name="[COLORpurple]• [COLORorchid]Tech [COLORdarkorchid]E [COLORplum]Coyote [COLORpurple]•[/COLOR]">
+       provider-name="Tech E Coyote">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.requests" version="2.25.1"/>
