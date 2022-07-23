@@ -9,7 +9,7 @@ plugin://plugin.video.gotv/?action=play&video=AE
 plugin://plugin.video.gotv/?action=play&video=AMC
 #EXTINF:-1 tvg-id="AnimalPlanet.us" tvg-name="Animal Planet " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/animal-planet-us.png" group-title="Go-Tv",Animal Planet 
 plugin://plugin.video.gotv/?action=play&video=Animal
-#EXTINF:-1 tvg-id="BBCAmerica.us" tvg-name="BBCAmerica " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/US/bbc-america-us.png" group-title="Go-Tv",BBCAmerica 
+#EXTINF:-1 tvg-id="BBCAmerica.us" tvg-name="BBCAmerica " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/US/bbc-america-us.png" group-title="Go-Tv",BBC America 
 plugin://plugin.video.gotv/?action=play&video=BBCAmerica
 #EXTINF:-1 tvg-id="BigTenNetwork.us" tvg-name="BTN" tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/btn-us.png" group-title="Go-Tv",Big Ten Network 
 plugin://plugin.video.gotv/?action=play&video=BTN
@@ -19,7 +19,7 @@ plugin://plugin.video.gotv/?action=play&video=BET
 plugin://plugin.video.gotv/?action=play&video=Boomerang
 #EXTINF:-1 tvg-id="Bravo.us" tvg-name="Bravo " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/bravo-us.png" group-title="Go-Tv",Bravo 
 plugin://plugin.video.gotv/?action=play&video=Bravo
-#EXTINF:-1 tvg-id="CSPAN.us" tvg-name="C-span " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/c-span-1-us.png" group-title="Go-Tv",C-span 
+#EXTINF:-1 tvg-id="CSPAN.us" tvg-name="C-span " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/c-span-1-us.png" group-title="Go-Tv",C-Span 
 plugin://plugin.video.gotv/?action=play&video=CSPAN
 #EXTINF:-1 tvg-id="WCBS.us" tvg-name="CBS " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/cbs-logo-white-us.png" group-title="Go-Tv",CBS 
 plugin://plugin.video.gotv/?action=play&video=CBS
@@ -45,9 +45,9 @@ plugin://plugin.video.gotv/?action=play&video=DA
 plugin://plugin.video.gotv/?action=play&video=Discovery
 #EXTINF:-1 tvg-id="DisneyChannel.us" tvg-name="Disney " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/disney-channel-us.png" group-title="Go-Tv",Disney 
 plugin://plugin.video.gotv/?action=play&video=Disney
-#EXTINF:-1 tvg-id="DisneyJunior.us" tvg-name="DisneyJr " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/disney-junior-us.png" group-title="Go-Tv",DisneyJr 
+#EXTINF:-1 tvg-id="DisneyJunior.us" tvg-name="DisneyJr " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/disney-junior-us.png" group-title="Go-Tv",Disney Jr 
 plugin://plugin.video.gotv/?action=play&video=DisneyJr
-#EXTINF:-1 tvg-id="DisneyXD.us" tvg-name="DisneyXD " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/US/disney-xd-us.png" group-title="Go-Tv",DisneyXD 
+#EXTINF:-1 tvg-id="DisneyXD.us" tvg-name="DisneyXD " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/US/disney-xd-us.png" group-title="Go-Tv",Disney XD 
 plugin://plugin.video.gotv/?action=play&video=DisneyXD
 #EXTINF:-1 tvg-id="EEntertainmentTelevision.us" tvg-name="E" tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/e-entertainment-us.png" group-title="Go-Tv",E! 
 plugin://plugin.video.gotv/?action=play&video=E
@@ -57,9 +57,9 @@ plugin://plugin.video.gotv/?action=play&video=ESPN
 plugin://plugin.video.gotv/?action=play&video=ESPN2
 #EXTINF:-1 tvg-id="ESPNU.us" tvg-name="ESPNU " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/espn-u-us.png" group-title="Go-Tv",ESPNU 
 plugin://plugin.video.gotv/?action=play&video=ESPNU
-#EXTINF:-1 tvg-id="ESPNEWS.us" tvg-name="ESPNews " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/espnews-us.png" group-title="Go-Tv",ESPNews 
+#EXTINF:-1 tvg-id="ESPNEWS.us" tvg-name="ESPNews " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/espnews-us.png" group-title="Go-Tv",ESPN News 
 plugin://plugin.video.gotv/?action=play&video=ESPNews
-#EXTINF:-1 tvg-id="FoodNetwork.us" tvg-name="FoodNetwork " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/US/food-network-us.png" group-title="Go-Tv",FoodNetwork 
+#EXTINF:-1 tvg-id="FoodNetwork.us" tvg-name="FoodNetwork " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/US/food-network-us.png" group-title="Go-Tv",Food Network 
 plugin://plugin.video.gotv/?action=play&video=FoodNetwork
 #EXTINF:-1 tvg-id="FOX(WNYW)NewYorkNY(src01).us" tvg-name="FOX " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/US/Fox5.png" group-title="Go-Tv",FOX 
 plugin://plugin.video.gotv/?action=play&video=FOX
@@ -141,7 +141,7 @@ plugin://plugin.video.gotv/?action=play&video=Paramount
 plugin://plugin.video.gotv/?action=play&video=PBS
 #EXTINF:-1 tvg-id="POP.us" tvg-name="POP " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/US/pop-us.png" group-title="Go-Tv",POP 
 plugin://plugin.video.gotv/?action=play&video=POP
-#EXTINF:-1 tvg-id="Science.us" tvg-name="Science " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/discovery-science-us.png" group-title="Go-Tv",Science 
+#EXTINF:-1 tvg-id="Science.us" tvg-name="Science " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/discovery-science-us.png" group-title="Go-Tv",Discovery Science 
 plugin://plugin.video.gotv/?action=play&video=Science
 #EXTINF:-1 tvg-id="SECNetwork.us" tvg-name="SEC Network " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/sec-network-us.png" group-title="Go-Tv",SEC Network 
 plugin://plugin.video.gotv/?action=play&video=SECN
@@ -151,7 +151,7 @@ plugin://plugin.video.gotv/?action=play&video=Showtime
 plugin://plugin.video.gotv/?action=play&video=StarZ
 #EXTINF:-1 tvg-id="SundanceTV.us" tvg-name="SundanceTV " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/sundance-tv-us.png" group-title="Go-Tv",SundanceTV 
 plugin://plugin.video.gotv/?action=play&video=SundanceTV
-#EXTINF:-1 tvg-id="SYFY.us" tvg-name="SYFY " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/US/syfy-us.png" group-title="Go-Tv",SYFY 
+#EXTINF:-1 tvg-id="SYFY.us" tvg-name="SYFY " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/US/syfy-us.png" group-title="Go-Tv",SyFy 
 plugin://plugin.video.gotv/?action=play&video=SYFY
 #EXTINF:-1 tvg-id="TBS.us" tvg-name="TBS " tvg-logo="https://raw.githubusercontent.com/Tw1zT3d247/myepg/master/Logos/US/tbs-us.png" group-title="Go-Tv",TBS 
 plugin://plugin.video.gotv/?action=play&video=TBS

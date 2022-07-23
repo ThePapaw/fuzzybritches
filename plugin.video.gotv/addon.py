@@ -31,7 +31,7 @@ def iptvsimple_setup():
         pisc.setSetting('logoBaseUrl','')
         pisc.setSetting('logoFromEpg','1')
         pisc.setSetting('epgPathType','1')
-        pisc.setSetting('epgUrl','https://bit.ly/3OvhQXK')
+        pisc.setSetting('epgUrl','https://bit.ly/3vaBl1h')
     else:
         try:
             pisc = xbmcaddon.Addon('pvr.iptvsimple')
@@ -46,7 +46,7 @@ def iptvsimple_setup():
         pisc.setSetting('logoBaseUrl','')
         pisc.setSetting('logoFromEpg','1')
         pisc.setSetting('epgPathType','1')
-        pisc.setSetting('epgUrl','https://bit.ly/3OvhQXK')
+        pisc.setSetting('epgUrl','https://bit.ly/3OowxvW')
     xbmcgui.Dialog().ok(_ADDON.getAddonInfo('name'), 'Done, Restart Kodi to see changes')
     xbmcplugin.setResolvedUrl(_HANDLE, False, xbmcgui.ListItem())
 
