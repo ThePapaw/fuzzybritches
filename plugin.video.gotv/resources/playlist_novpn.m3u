@@ -53,7 +53,7 @@ plugin://plugin.video.gotv/?action=play&video=ESPNU
 plugin://plugin.video.gotv/?action=play&video=ESPNews
 #EXTINF:-1 tvg-id="FoodNetwork.us" tvg-name="FoodNetwork " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/food-network-us.png" group-title="Go-Tv",Food Network 
 plugin://plugin.video.gotv/?action=play&video=FoodNetwork
-#EXTINF:-1 tvg-id="FOX(WNYW)NewYorkNY(src01).us" tvg-name="FOX " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/Fox-us.png" group-title="Go-Tv",FOX 
+#EXTINF:-1 tvg-id="FOX(WNYW)NewYorkNY(src01).us" tvg-name="FOX " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/fox-us.png" group-title="Go-Tv",FOX 
 plugin://plugin.video.gotv/?action=play&video=FOX
 #EXTINF:-1 tvg-id="FoxBusiness.us" tvg-name="FoxBusiness " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/fox-business-us.png" group-title="Go-Tv",Fox Business 
 plugin://plugin.video.gotv/?action=play&video=FoxBusiness
@@ -105,13 +105,13 @@ plugin://plugin.video.gotv/?action=play&video=Nickelodeon
 plugin://plugin.video.gotv/?action=play&video=Nicktoons
 #EXTINF:-1 tvg-id="OneAmericaNewsNetwork.us" tvg-name="One America News Network " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/one-america-news-network-us.png" group-title="Go-Tv",One America News Network 
 plugin://plugin.video.gotv/?action=play&video=OAN
-#EXTINF:-1 tvg-id="OprahWinfreyNetwork.us" tvg-name="OWN (OWN) " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/opra-winfrey-network-us.png" group-title="Go-Tv",Oprah Winfrey Network (OWN) 
+#EXTINF:-1 tvg-id="OprahWinfreyNetwork.us" tvg-name="OWN (OWN) " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/oprah-winfrey-network-us.png" group-title="Go-Tv",Oprah Winfrey Network (OWN) 
 plugin://plugin.video.gotv/?action=play&video=OWN
-#EXTINF:-1 tvg-id="OlympicChannel.us" tvg-name="Olympic Channel " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/olympics.png" group-title="Go-Tv",Olympic Channel 
+#EXTINF:-1 tvg-id="OlympicChannel.us" tvg-name="Olympic Channel " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/olympic-channel-us.png" group-title="Go-Tv",Olympic Channel 
 plugin://plugin.video.gotv/?action=play&video=OLY
 #EXTINF:-1 tvg-id="Oxygen.us" tvg-name="Oxygen " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/oxygen-us.png" group-title="Go-Tv",Oxygen 
 plugin://plugin.video.gotv/?action=play&video=Oxygen
-#EXTINF:-1 tvg-id="9233004141" tvg-name="PBS " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/pbs-us.png" group-title="Go-Tv",PBS 
+#EXTINF:-1 tvg-id="9233004141" tvg-name="PBS " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/pbs-kids-us.png" group-title="Go-Tv",PBS 
 plugin://plugin.video.gotv/?action=play&video=PBS
 #EXTINF:-1 tvg-id="POP.us" tvg-name="POP " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/pop-us.png" group-title="Go-Tv",POP 
 plugin://plugin.video.gotv/?action=play&video=POP

@@ -3,13 +3,13 @@
 plugin://plugin.video.gotv/?action=play&video=ABC
 #EXTINF:-1 tvg-id="ACCNetwork.us" tvg-name="ACC Network " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/acc-network-us.png" group-title="Go-Tv",ACC Network 
 plugin://plugin.video.gotv/?action=play&video=ACCN
-#EXTINF:-1 tvg-id="AandE.us" tvg-name="A & E " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/a-and-e-us.png" group-title="Go-Tv",A & E (Nord Only)
+#EXTINF:-1 tvg-id="AandE.us" tvg-name="A & E " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/a-and-e-us.png" group-title="Go-Tv",A & E (Nord Only)
 plugin://plugin.video.gotv/?action=play&video=AE
-#EXTINF:-1 tvg-id="AMC.us" tvg-name="AMC " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/amc-us.png" group-title="Go-Tv",AMC 
+#EXTINF:-1 tvg-id="AMC.us" tvg-name="AMC " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/amc-us.png" group-title="Go-Tv",AMC 
 plugin://plugin.video.gotv/?action=play&video=AMC
 #EXTINF:-1 tvg-id="AnimalPlanet.us" tvg-name="Animal Planet " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/animal-planet-us.png" group-title="Go-Tv",Animal Planet 
 plugin://plugin.video.gotv/?action=play&video=Animal
-#EXTINF:-1 tvg-id="BBCAmerica.us" tvg-name="BBC America " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/bbc-america-us.png" group-title="Go-Tv",BBC America 
+#EXTINF:-1 tvg-id="BBCAmerica.us" tvg-name="BBC America " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/bbc-america-us.png" group-title="Go-Tv",BBC America 
 plugin://plugin.video.gotv/?action=play&video=BBCAmerica
 #EXTINF:-1 tvg-id="BigTenNetwork.us" tvg-name="BTN" tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/btn-us.png" group-title="Go-Tv",Big Ten Network 
 plugin://plugin.video.gotv/?action=play&video=BTN
@@ -29,13 +29,13 @@ plugin://plugin.video.gotv/?action=play&video=CBSSN
 plugin://plugin.video.gotv/?action=play&video=Cinemax
 #EXTINF:-1 tvg-id="CMT.us" tvg-name="CMT " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/cmt-us.png" group-title="Go-Tv",CMT 
 plugin://plugin.video.gotv/?action=play&video=CMT
-#EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-name="Cartoon Network " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/cartoon-network-us.png" group-title="Go-Tv",Cartoon Network 
+#EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-name="Cartoon Network " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/cartoon-network-us.png" group-title="Go-Tv",Cartoon Network 
 plugin://plugin.video.gotv/?action=play&video=CN
-#EXTINF:-1 tvg-id="CNBC.us" tvg-name="CNBC " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/cnbc-us.png" group-title="Go-Tv",CNBC 
+#EXTINF:-1 tvg-id="CNBC.us" tvg-name="CNBC " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/cnbc-us.png" group-title="Go-Tv",CNBC 
 plugin://plugin.video.gotv/?action=play&video=CNBC
 #EXTINF:-1 tvg-id="CNN.us" tvg-name="CNN " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/cnn-us.png" group-title="Go-Tv",CNN 
 plugin://plugin.video.gotv/?action=play&video=CNN
-#EXTINF:-1 tvg-id="ComedyCentral.us" tvg-name="Comedy Central" tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/comedy-central-us.png" group-title="Go-Tv",Comedy Central
+#EXTINF:-1 tvg-id="ComedyCentral.us" tvg-name="Comedy Central" tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/comedy-central-us.png" group-title="Go-Tv",Comedy Central
 plugin://plugin.video.gotv/?action=play&video=Comedy
 #EXTINF:-1 tvg-id="WDCW.us" tvg-name="CW " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/cw-us.png" group-title="Go-Tv",CW 
 plugin://plugin.video.gotv/?action=play&video=CW
@@ -47,11 +47,11 @@ plugin://plugin.video.gotv/?action=play&video=Discovery
 plugin://plugin.video.gotv/?action=play&video=Disney
 #EXTINF:-1 tvg-id="DisneyJunior.us" tvg-name="DisneyJr " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/disney-junior-us.png" group-title="Go-Tv",Disney Jr 
 plugin://plugin.video.gotv/?action=play&video=DisneyJr
-#EXTINF:-1 tvg-id="DisneyXD.us" tvg-name="DisneyXD " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/disney-xd-us.png" group-title="Go-Tv",Disney XD 
+#EXTINF:-1 tvg-id="DisneyXD.us" tvg-name="DisneyXD " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/disney-xd-us.png" group-title="Go-Tv",Disney XD 
 plugin://plugin.video.gotv/?action=play&video=DisneyXD
 #EXTINF:-1 tvg-id="EEntertainmentTelevision.us" tvg-name="E" tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/e-entertainment-us.png" group-title="Go-Tv",E! 
 plugin://plugin.video.gotv/?action=play&video=E
-#EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/espn-us.png" group-title="Go-Tv",ESPN (Nord Only)
+#EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/espn-us.png" group-title="Go-Tv",ESPN (Nord Only)
 plugin://plugin.video.gotv/?action=play&video=ESPN
 #EXTINF:-1 tvg-id="ESPN2.us" tvg-name="ESPN2 " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/espn-2-us.png" group-title="Go-Tv",ESPN2 
 plugin://plugin.video.gotv/?action=play&video=ESPN2
@@ -59,9 +59,9 @@ plugin://plugin.video.gotv/?action=play&video=ESPN2
 plugin://plugin.video.gotv/?action=play&video=ESPNU
 #EXTINF:-1 tvg-id="ESPNEWS.us" tvg-name="ESPNews " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/espnews-us.png" group-title="Go-Tv",ESPN News 
 plugin://plugin.video.gotv/?action=play&video=ESPNews
-#EXTINF:-1 tvg-id="FoodNetwork.us" tvg-name="FoodNetwork " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/food-network-us.png" group-title="Go-Tv",Food Network 
+#EXTINF:-1 tvg-id="FoodNetwork.us" tvg-name="FoodNetwork " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/food-network-us.png" group-title="Go-Tv",Food Network 
 plugin://plugin.video.gotv/?action=play&video=FoodNetwork
-#EXTINF:-1 tvg-id="FOX(WNYW)NewYorkNY(src01).us" tvg-name="FOX " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/Fox5.png" group-title="Go-Tv",FOX 
+#EXTINF:-1 tvg-id="FOX(WNYW)NewYorkNY(src01).us" tvg-name="FOX " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/fox-us.png" group-title="Go-Tv",FOX 
 plugin://plugin.video.gotv/?action=play&video=FOX
 #EXTINF:-1 tvg-id="FoxBusiness.us" tvg-name="FoxBusiness " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/fox-business-us.png" group-title="Go-Tv",FoxBusiness 
 plugin://plugin.video.gotv/?action=play&video=FoxBusiness
@@ -75,29 +75,29 @@ plugin://plugin.video.gotv/?action=play&video=FS1
 plugin://plugin.video.gotv/?action=play&video=FS2
 #EXTINF:-1 tvg-id="FX.us" tvg-name="FX " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/fx-us.png" group-title="Go-Tv",FX 
 plugin://plugin.video.gotv/?action=play&video=FX
-#EXTINF:-1 tvg-id="FXMovieChannel.us" tvg-name="FX Movie Channel " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/fxm-movie-channel-us.png" group-title="Go-Tv",FX Movie Channel 
+#EXTINF:-1 tvg-id="FXMovieChannel.us" tvg-name="FX Movie Channel " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/fxm-movie-channel-us.png" group-title="Go-Tv",FX Movie Channel 
 plugin://plugin.video.gotv/?action=play&video=FXMovie
 #EXTINF:-1 tvg-id="FXX.us" tvg-name="FXX " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/fxx-us.png" group-title="Go-Tv",FXX 
 plugin://plugin.video.gotv/?action=play&video=FXX
 #EXTINF:-1 tvg-id="GolfChannel.us" tvg-name="Golf Channel " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/nbc-golf-channel-us.png" group-title="Go-Tv",Golf Channel (Nord Only)
 plugin://plugin.video.gotv/?action=play&video=GOLF
-#EXTINF:-1 tvg-id="GameShowNetwork.us" tvg-name="Game Show Network " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/game-show-network-us.png" group-title="Go-Tv",Game Show Network 
+#EXTINF:-1 tvg-id="GameShowNetwork.us" tvg-name="Game Show Network " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/game-show-network-us.png" group-title="Go-Tv",Game Show Network 
 plugin://plugin.video.gotv/?action=play&video=GSN
-#EXTINF:-1 tvg-id="HallmarkChannel.us" tvg-name="Hallmark Channel " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/hallmark-us.png" group-title="Go-Tv",Hallmark Channel 
+#EXTINF:-1 tvg-id="HallmarkChannel.us" tvg-name="Hallmark Channel " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/hallmark-us.png" group-title="Go-Tv",Hallmark Channel 
 plugin://plugin.video.gotv/?action=play&video=Hallmark
 #EXTINF:-1 tvg-id="HBO.us" tvg-name="HBO " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/hbo-us.png" group-title="Go-Tv",HBO (Nord Only)
 plugin://plugin.video.gotv/?action=play&video=HBO
-#EXTINF:-1 tvg-id="HGTV.us" tvg-name="HGTV " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/hgtv-us.png" group-title="Go-Tv",HGTV 
+#EXTINF:-1 tvg-id="HGTV.us" tvg-name="HGTV " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/hgtv-us.png" group-title="Go-Tv",HGTV 
 plugin://plugin.video.gotv/?action=play&video=HGTV
-#EXTINF:-1 tvg-id="History.us" tvg-name="History " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/history-channel-us.png" group-title="Go-Tv",History (Nord Only)
+#EXTINF:-1 tvg-id="History.us" tvg-name="History " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/history-channel-us.png" group-title="Go-Tv",History (Nord Only)
 plugin://plugin.video.gotv/?action=play&video=History
 #EXTINF:-1 tvg-id="HLN.us" tvg-name="HLN " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/hln-us.png" group-title="Go-Tv",HLN 
 plugin://plugin.video.gotv/?action=play&video=HLN
-#EXTINF:-1 tvg-id="HallmarkMoviesandMysteries.us" tvg-name="HMM" tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/hallmark-movies-and-mysteries-us.png" group-title="Go-Tv",Hallmark Movies & Mysteries
+#EXTINF:-1 tvg-id="HallmarkMoviesandMysteries.us" tvg-name="HMM" tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/hallmark-movies-and-mysteries-us.png" group-title="Go-Tv",Hallmark Movies & Mysteries
 plugin://plugin.video.gotv/?action=play&video=HMM
 #EXTINF:-1 tvg-id="InvestigationDiscovery.us" tvg-name="Investigation Discovery " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/investigation-discovery-us.png" group-title="Go-Tv",Investigation Discovery (Nord Only)
 plugin://plugin.video.gotv/?action=play&video=ID
-#EXTINF:-1 tvg-id="Lifetime.us" tvg-name="Lifetime " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/lifetime-us.png" group-title="Go-Tv",Lifetime 
+#EXTINF:-1 tvg-id="Lifetime.us" tvg-name="Lifetime " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/lifetime-us.png" group-title="Go-Tv",Lifetime 
 plugin://plugin.video.gotv/?action=play&video=Lifetime
 #EXTINF:-1 tvg-id="LMN.us" tvg-name="Lifetime Movie Network " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/lifetime-movie-network-us.png" group-title="Go-Tv",Lifetime Movie Network 
 plugin://plugin.video.gotv/?action=play&video=LifetimeM
@@ -105,7 +105,7 @@ plugin://plugin.video.gotv/?action=play&video=LifetimeM
 plugin://plugin.video.gotv/?action=play&video=DIY
 #EXTINF:-1 tvg-id="MLBNetwork.us" tvg-name="MLB Network " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/mlb-network-us.png" group-title="Go-Tv",MLB Network 
 plugin://plugin.video.gotv/?action=play&video=MLB
-#EXTINF:-1 tvg-id="MOTORTREND.us" tvg-name="Motor Trend " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/motor-trend-us.png" group-title="Go-Tv",Motor Trend 
+#EXTINF:-1 tvg-id="MOTORTREND.us" tvg-name="Motor Trend " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/motor-trend-us.png" group-title="Go-Tv",Motor Trend 
 plugin://plugin.video.gotv/?action=play&video=MotorTrend
 #EXTINF:-1 tvg-id="MSNBC.us" tvg-name="MSNBC " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/msnbc-us.png" group-title="Go-Tv",MSNBC 
 plugin://plugin.video.gotv/?action=play&video=MSNBC
@@ -117,9 +117,9 @@ plugin://plugin.video.gotv/?action=play&video=NatGEO
 plugin://plugin.video.gotv/?action=play&video=NatGEOWild
 #EXTINF:-1 tvg-id="NBATV.us" tvg-name="NBA TV " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/nba-tv-us.png" group-title="Go-Tv",NBA TV (Nord Only)
 plugin://plugin.video.gotv/?action=play&video=NBA
-#EXTINF:-1 tvg-id="WNBC.us" tvg-name="NBC " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/nbc-logo-2013-us.png" group-title="Go-Tv",NBC (Nord Only)
+#EXTINF:-1 tvg-id="WNBC.us" tvg-name="NBC " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/nbc-us.png" group-title="Go-Tv",NBC (Nord Only)
 plugin://plugin.video.gotv/?action=play&video=NBC
-#EXTINF:-1 tvg-id="NFLNETWORK.us" tvg-name="NFL Network " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/nfl-network-us.png" group-title="Go-Tv",NFL Network (Nord Only)
+#EXTINF:-1 tvg-id="NFLNETWORK.us" tvg-name="NFL Network " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/nfl-network-us.png" group-title="Go-Tv",NFL Network (Nord Only)
 plugin://plugin.video.gotv/?action=play&video=NFL
 #EXTINF:-1 tvg-id="NFLRedZone.us" tvg-name="NFL Redzone " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/nfl-red-zone-us.png" group-title="Go-Tv",NFL Redzone 
 plugin://plugin.video.gotv/?action=play&video=NFLRZ
@@ -129,17 +129,17 @@ plugin://plugin.video.gotv/?action=play&video=Nickelodeon
 plugin://plugin.video.gotv/?action=play&video=Nicktoons
 #EXTINF:-1 tvg-id="OneAmericaNewsNetwork.us" tvg-name="One America News Network " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/one-america-news-network-us.png" group-title="Go-Tv",One America News Network 
 plugin://plugin.video.gotv/?action=play&video=OAN
-#EXTINF:-1 tvg-id="OprahWinfreyNetwork.us" tvg-name="OWN (OWN) " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/opra-winfrey-network-us.png" group-title="Go-Tv",Oprah Winfrey Network (OWN) 
+#EXTINF:-1 tvg-id="OprahWinfreyNetwork.us" tvg-name="OWN (OWN) " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/oprah-winfrey-network-us.png" group-title="Go-Tv",Oprah Winfrey Network (OWN) 
 plugin://plugin.video.gotv/?action=play&video=OWN
-#EXTINF:-1 tvg-id="OlympicChannel.us" tvg-name="Olympic Channel " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/olympics.png" group-title="Go-Tv",Olympic Channel 
+#EXTINF:-1 tvg-id="OlympicChannel.us" tvg-name="Olympic Channel " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/olympic-channel-us.png" group-title="Go-Tv",Olympic Channel 
 plugin://plugin.video.gotv/?action=play&video=OLY
 #EXTINF:-1 tvg-id="Oxygen.us" tvg-name="Oxygen " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/oxygen-us.png" group-title="Go-Tv",Oxygen 
 plugin://plugin.video.gotv/?action=play&video=Oxygen
-#EXTINF:-1 tvg-id="ParamountNetwork.us" tvg-name="Paramount " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/paramount-network-us.png" group-title="Go-Tv",Paramount (Nord Only)
+#EXTINF:-1 tvg-id="ParamountNetwork.us" tvg-name="Paramount " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/paramount-network-us.png" group-title="Go-Tv",Paramount (Nord Only)
 plugin://plugin.video.gotv/?action=play&video=Paramount
-#EXTINF:-1 tvg-id="9233004141" tvg-name="PBS " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/pbs-us.png" group-title="Go-Tv",PBS 
+#EXTINF:-1 tvg-id="9233004141" tvg-name="PBS " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/pbs-kids-us.png" group-title="Go-Tv",PBS 
 plugin://plugin.video.gotv/?action=play&video=PBS
-#EXTINF:-1 tvg-id="POP.us" tvg-name="POP " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/pop-us.png" group-title="Go-Tv",POP 
+#EXTINF:-1 tvg-id="POP.us" tvg-name="POP " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/pop-us.png" group-title="Go-Tv",POP 
 plugin://plugin.video.gotv/?action=play&video=POP
 #EXTINF:-1 tvg-id="Science.us" tvg-name="Science " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/discovery-science-us.png" group-title="Go-Tv",Discovery Science 
 plugin://plugin.video.gotv/?action=play&video=Science
@@ -147,35 +147,35 @@ plugin://plugin.video.gotv/?action=play&video=Science
 plugin://plugin.video.gotv/?action=play&video=SECN
 #EXTINF:-1 tvg-id="Showtime.us" tvg-name="Showtime " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/showtime-us.png" group-title="Go-Tv",Showtime (Nord Only)
 plugin://plugin.video.gotv/?action=play&video=Showtime
-#EXTINF:-1 tvg-id="Starz.us" tvg-name="StarZ " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/starz-us.png" group-title="Go-Tv",StarZ 
+#EXTINF:-1 tvg-id="Starz.us" tvg-name="StarZ " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/starz-us.png" group-title="Go-Tv",StarZ 
 plugin://plugin.video.gotv/?action=play&video=StarZ
 #EXTINF:-1 tvg-id="SundanceTV.us" tvg-name="SundanceTV " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/sundance-tv-us.png" group-title="Go-Tv",SundanceTV 
 plugin://plugin.video.gotv/?action=play&video=SundanceTV
-#EXTINF:-1 tvg-id="SYFY.us" tvg-name="SYFY " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/syfy-us.png" group-title="Go-Tv",SyFy 
+#EXTINF:-1 tvg-id="SYFY.us" tvg-name="SYFY " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/syfy-us.png" group-title="Go-Tv",SyFy 
 plugin://plugin.video.gotv/?action=play&video=SYFY
-#EXTINF:-1 tvg-id="TBS.us" tvg-name="TBS " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/tbs-us.png" group-title="Go-Tv",TBS 
+#EXTINF:-1 tvg-id="TBS.us" tvg-name="TBS " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/tbs-us.png" group-title="Go-Tv",TBS 
 plugin://plugin.video.gotv/?action=play&video=TBS
 #EXTINF:-1 tvg-id="TurnerClassicMovies.us" tvg-name="Turner Classic Movies (TCM) " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/tcm-movies-us.png" group-title="Go-Tv",Turner Classic Movies (TCM) (Nord Only)
 plugin://plugin.video.gotv/?action=play&video=TCM
-#EXTINF:-1 tvg-id="Telemundo(Spanish).us" tvg-name="Telemundo " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/telemundo-us.png" group-title="Go-Tv",Telemundo 
+#EXTINF:-1 tvg-id="Telemundo(Spanish).us" tvg-name="Telemundo " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/telemundo-us.png" group-title="Go-Tv",Telemundo 
 plugin://plugin.video.gotv/?action=play&video=Telemundo
 #EXTINF:-1 tvg-id="TennisChannel.us" tvg-name="Tennis Channel " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/tennis-channel-us.png" group-title="Go-Tv",Tennis Channel (Nord Only)
 plugin://plugin.video.gotv/?action=play&video=Tennis
-#EXTINF:-1 tvg-id="TLC.us" tvg-name="TLC " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/tlc-us.png" group-title="Go-Tv",TLC 
+#EXTINF:-1 tvg-id="TLC.us" tvg-name="TLC " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/tlc-us.png" group-title="Go-Tv",TLC 
 plugin://plugin.video.gotv/?action=play&video=TLC
-#EXTINF:-1 tvg-id="TNT.us" tvg-name="TNT " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/tnt-us.png" group-title="Go-Tv",TNT (Nord Only)
+#EXTINF:-1 tvg-id="TNT.us" tvg-name="TNT " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/tnt-us.png" group-title="Go-Tv",TNT (Nord Only)
 plugin://plugin.video.gotv/?action=play&video=TNT
 #EXTINF:-1 tvg-id="TheTravelChannel.us" tvg-name="Travel Channel " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/travel-channel-us.png" group-title="Go-Tv",Travel Channel 
 plugin://plugin.video.gotv/?action=play&video=Travel
-#EXTINF:-1 tvg-id="truTV.us" tvg-name="truTV " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/tru-tv-us.png" group-title="Go-Tv",truTV 
+#EXTINF:-1 tvg-id="truTV.us" tvg-name="truTV " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/tru-tv-us.png" group-title="Go-Tv",truTV 
 plugin://plugin.video.gotv/?action=play&video=TruTV
-#EXTINF:-1 tvg-id="TVLand.us" tvg-name="TV Land " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/tv-land-us.png" group-title="Go-Tv",TV Land 
+#EXTINF:-1 tvg-id="TVLand.us" tvg-name="TV Land " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/tv-land-us.png" group-title="Go-Tv",TV Land 
 plugin://plugin.video.gotv/?action=play&video=TVLand
 #EXTINF:-1 tvg-id="TheWeatherChannel.us" tvg-name="The Weather Channel " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/weather-channel-us.png" group-title="Go-Tv",The Weather Channel 
 plugin://plugin.video.gotv/?action=play&video=TWC
-#EXTINF:-1 tvg-id="UnivisionNetwork(Spanish).us" tvg-name="Univision " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/univision-us.png" group-title="Go-Tv",Univision (Nord Only)
+#EXTINF:-1 tvg-id="UnivisionNetwork(Spanish).us" tvg-name="Univision " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/univision-us.png" group-title="Go-Tv",Univision (Nord Only)
 plugin://plugin.video.gotv/?action=play&video=Univision
-#EXTINF:-1 tvg-id="USANetwork.us" tvg-name="USA Network " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/US/usa-us.png" group-title="Go-Tv",USA Network (Nord Only)
+#EXTINF:-1 tvg-id="USANetwork.us" tvg-name="USA Network " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/usa-us.png" group-title="Go-Tv",USA Network (Nord Only)
 plugin://plugin.video.gotv/?action=play&video=USANetwork
 #EXTINF:-1 tvg-id="VH1.us" tvg-name="VH1 " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/vh1-us.png" group-title="Go-Tv",VH1 (Nord Only)
 plugin://plugin.video.gotv/?action=play&video=VH1
