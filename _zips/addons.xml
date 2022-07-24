@@ -213,7 +213,7 @@
     </extension>
 </addon>
 
-    <addon id="repository.fuzzybritches" name="Fuzzy Britches Repository" version="1.0.32" provider-name="The Papaw">
+    <addon id="repository.fuzzybritches" name="Fuzzy Britches Repository" version="1.0.33" provider-name="The Papaw">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
