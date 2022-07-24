@@ -141,7 +141,7 @@ plugin://plugin.video.gotv/?action=play&video=TVLand
 plugin://plugin.video.gotv/?action=play&video=TWC
 #EXTINF:-1 tvg-id="WEtv.us" tvg-name="We TV " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/we-tv-us.png" group-title="Go-Tv",We TV 
 plugin://plugin.video.gotv/?action=play&video=WETV
-#EXTINF:-1 tvg-id="WWE.us" tvg-name="WWE " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/yes-network-us.png" group-title="Go-Tv",WWE 
+#EXTINF:-1 tvg-id="WWE.us" tvg-name="WWE " tvg-logo="https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/wwe-us.png" group-title="Go-Tv",WWE 
 plugin://plugin.video.gotv/?action=play&video=WWE
-#EXTINF:-1 tvg-id="YesNetwork.us" tvg-name="YES " tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-states/wwe-us.png" group-title="Go-Tv",YES 
+#EXTINF:-1 tvg-id="YesNetwork.us" tvg-name="YES " tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-states/yes-network-us.png" group-title="Go-Tv",YES 
 plugin://plugin.video.gotv/?action=play&video=YES

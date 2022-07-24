@@ -12,7 +12,7 @@ Channels = {
         "url": "ACCN"
     },
     "AE": {
-        "name": "A & E (Requires NordVPN) ",
+        "name": "A & E (Nord Only) ",
         "genre": "Entertainment ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/a-and-e-us.png",
         "url": "AE"
@@ -42,7 +42,7 @@ Channels = {
         "url": "BTN"
     },
     "BET ": {
-        "name": "BET (Requires NordVPN) ",
+        "name": "BET (Nord Only) ",
         "genre": "Entertainment ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/bet-us.png",
         "url": "BET"
@@ -126,7 +126,7 @@ Channels = {
         "url": "DA"
     },
     "Discovery ": {
-        "name": "Discovery (Requires NordVPN) ",
+        "name": "Discovery (Nord Only) ",
         "genre": "Entertainment ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/discovery-channel-us.png",
         "url": "Discovery"
@@ -156,7 +156,7 @@ Channels = {
         "url": "E"
     },
     "ESPN ": {
-        "name": "ESPN (Requires NordVPN) ",
+        "name": "ESPN (Nord Only) ",
         "genre": "Sports ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/espn-us.png",
         "url": "ESPN"
@@ -210,7 +210,7 @@ Channels = {
         "url": "Freeform"
     },
     "Fox Sports 1 ": {
-        "name": "Fox Sports 1 (Requires NordVPN) ",
+        "name": "Fox Sports 1 (Nord Only) ",
         "genre": "Sports ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/fox-sports-1-us.png",
         "url": "FS1"
@@ -240,7 +240,7 @@ Channels = {
         "url": "FXX"
     },
     "Golf Channel ": {
-        "name": "Golf Channel (Requires NordVPN) ",
+        "name": "Golf Channel (Nord Only) ",
         "genre": "Sports ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/nbc-golf-us.png",
         "url": "GOLF"
@@ -258,7 +258,7 @@ Channels = {
         "url": "Hallmark"
     },
     "HBO ": {
-        "name": "HBO (Requires NordVPN) ",
+        "name": "HBO (Nord Only) ",
         "genre": "Entertainment ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/hbo-us.png",
         "url": "HBO"
@@ -270,7 +270,7 @@ Channels = {
         "url": "HGTV"
     },
     "History ": {
-        "name": "History (Requires NordVPN) ",
+        "name": "History (Nord Only) ",
         "genre": "Entertainment ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/history-channel-us.png",
         "url": "History"
@@ -288,7 +288,7 @@ Channels = {
         "url": "HMM"
     },
     "Investigation Discovery ": {
-        "name": "Investigation Discovery (Requires NordVPN) ",
+        "name": "Investigation Discovery (Nord Only) ",
         "genre": "Entertainment ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/investigation-discovery-us.png",
         "url": "ID"
@@ -336,7 +336,7 @@ Channels = {
         "url": "MTV"
     },
     "National Geographic ": {
-        "name": "National Geographic (Requires NordVPN) ",
+        "name": "National Geographic (Nord Only) ",
         "genre": "Entertainment ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/national-geographic-us.png",
         "url": "NatGEO"
@@ -348,7 +348,7 @@ Channels = {
         "url": "NatGEOWild"
     },
     "NBA TV ": {
-        "name": "NBA TV (Requires NordVPN) ",
+        "name": "NBA TV (Nord Only) ",
         "genre": "Sports ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/nba-tv-us.png",
         "url": "NBA"
@@ -360,13 +360,13 @@ Channels = {
         "url": "NBC"
     },
     "NBC Sports (NBCSN) ": {
-        "name": "NBC Sports (Requires NordVPN) ",
+        "name": "NBC Sports (Nord Only) ",
         "genre": "Sports ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/nbcsn-us.png",
         "url": "NBCSN"
     },
     "NFL Network ": {
-        "name": "NFL Network (Requires NordVPN) ",
+        "name": "NFL Network (Nord Only) ",
         "genre": "Sports ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/nfl-network-us.png",
         "url": "NFL"
@@ -414,7 +414,7 @@ Channels = {
         "url": "Oxygen"
     },
     "Paramount ": {
-        "name": "Paramount (Requires NordVPN) ",
+        "name": "Paramount (Nord Only) ",
         "genre": "Entertainment ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/paramount-network-us.png",
         "url": "Paramount"
@@ -444,7 +444,7 @@ Channels = {
         "url": "SECN"
     },
     "Showtime ": {
-        "name": "Showtime (Requires NordVPN) ",
+        "name": "Showtime (Nord Only) ",
         "genre": "Entertainment ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/showtime-us.png",
         "url": "Showtime"
@@ -468,13 +468,13 @@ Channels = {
         "url": "SYFY"
     },
     "TBS ": {
-        "name": "TBS (Requires NordVPN) ",
+        "name": "TBS (Nord Only) ",
         "genre": "Entertainment ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/tbs-us.png",
         "url": "TBS"
     },
     "Turner Classic Movies (TCM) ": {
-        "name": "Turner Classic Movies (Requires NordVPN) ",
+        "name": "Turner Classic Movies (Nord Only) ",
         "genre": "Entertainment ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/tcm-movies-us.png",
         "url": "TCM"
@@ -486,7 +486,7 @@ Channels = {
         "url": "Telemundo"
     },
     "Tennis Channel ": {
-        "name": "Tennis Channel (Requires NordVPN) ",
+        "name": "Tennis Channel (Nord Only) ",
         "genre": "Sports ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/tennis-channel-us.png",
         "url": "Tennis"
@@ -498,7 +498,7 @@ Channels = {
         "url": "TLC"
     },
     "TNT ": {
-        "name": "TNT (Requires NordVPN) ",
+        "name": "TNT (Nord Only) ",
         "genre": "Entertainment ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/tnt-us.png",
         "url": "TNT"
@@ -510,7 +510,7 @@ Channels = {
         "url": "Travel"
     },
     "truTV ": {
-        "name": "truTV (Requires NordVPN) ",
+        "name": "truTV (Nord Only) ",
         "genre": "Entertainment ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/tru-tv-us.png",
         "url": "TruTV"
@@ -528,7 +528,7 @@ Channels = {
         "url": "TWC"
     },
     "Univision ": {
-        "name": "Univision (Requires NordVPN) ",
+        "name": "Univision (Nord Only) ",
         "genre": "Entertainment ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/univision-us.png",
         "url": "Univision"
@@ -540,7 +540,7 @@ Channels = {
         "url": "USANetwork"
     },
     "VH1 ": {
-        "name": "VH1 (Requires NordVPN) ",
+        "name": "VH1 (Nord Only) ",
         "genre": "Entertainment ",
         "thumb": "https://raw.githubusercontent.com/ThePapaw/tv-logos/master/Country/United_States/vh1-us.png",
         "url": "VH1"
