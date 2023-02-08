@@ -20,7 +20,7 @@ Features include: Auto delete of cache at start up (optional), notifies when pac
 
 Most of them now include <B>Home Screen Animation</B> (can be toggled off), additional Falling Seasons, GUI Sounds and other various changes.  (If you wish to use the included <B>GUI Sounds</B> for a particular skin, they are installed with the skin, but you will need to Enable them in the media player's system settings) The PSMC skins include:
 
-• <B>PSMC's Smoke</B> - ***NEW Design** Modern skin, extremely configurable. Works only with v19.(GUI sounds available). <BR>
+• <B>PSMC's Smoke</B> - ***NEW Design** Modern skin, extremely configurable. Works only with v19. (GUI sounds available). <BR>
 • <B>PSMC Max Skin</B> - Modern skin, extremely configurable. Works with v18 & v19. (must add dependancies manually for v18). GUI sounds available. <BR>
 • <B>PSMC's Silvo Skin</B> - A general Aeon Nox SiLVO skin themed for PSMC. <BR>
 • <B>PSMC's Spiderman Skin</B> - Updated and redesigned (includes animations & GUI sounds). <BR>
