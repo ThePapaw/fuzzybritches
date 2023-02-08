@@ -9,7 +9,7 @@ All items hosted here are for learning and educational purposes only. They inclu
 • <B>PSMC Maintenance</B> (Maintenance Program)<BR>
 • <B>Various Skins - see below</B> <BR>
 
-• The Fuzzy Britches v1 addon has been ported and patched together from various other Exodus type addons. Please give credit to their respective developers. <B>Make sure to read NEWS section for best results!</B>
+• The Fuzzy Britches v3 addon has been ported and patched together from various other Exodus type addons. Please give credit to their respective developers. Works with v18 & v19 <B>Make sure to read NEWS section for best results!</B>
 
 • The Kids Cove addon is a Jen type addon just for kids and include tons of old and new cartoons, anime and many old TV classic shows. Again, please give credit the JEN developers.
 
