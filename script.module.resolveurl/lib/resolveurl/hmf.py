@@ -257,6 +257,7 @@ class HostedMediaFile:
             import ssl
             ssl_context = ssl._create_unverified_context()
             ssl._create_default_https_context = ssl._create_unverified_context
+            ssl_context.set_alpn_protocols(['http/1.1'])
             opener = urllib_request.build_opener(urllib_request.HTTPSHandler(context=ssl_context))
             urllib_request.install_opener(opener)
         except:
@@ -265,14 +266,15 @@ class HostedMediaFile:
         try:
             msg = ''
             request = urllib_request.Request(stream_url.split('|')[0], headers=headers)
-            # only do a HEAD request. gujal
-            request.get_method = lambda: 'HEAD'
+            # only do a HEAD request for non m3u8 streams
+            if '.m3u8' not in stream_url:
+                request.get_method = lambda: 'HEAD'
             #  set urlopen timeout to 15 seconds
             http_code = urllib_request.urlopen(request, timeout=15).getcode()
         except urllib_error.HTTPError as e:
             if isinstance(e, urllib_error.HTTPError):
                 http_code = e.code
-                if http_code == 405:
+                if http_code == 405 or http_code == 472:
                     http_code = 200
             else:
                 http_code = 600

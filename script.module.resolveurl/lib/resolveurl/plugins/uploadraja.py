@@ -39,7 +39,7 @@ class UploadRajaResolver(ResolveUrl):
             'rand': '',
             'referer': 'https://{}/'.format(host)
         }
-        url = self.net.http_POST(web_url, form_data=payload, headers=headers).get_url()
+        url = helpers.get_redirect_url(web_url, headers=headers, form_data=payload)
         if url != web_url:
             return url.replace(' ', '%20') + helpers.append_headers(headers)
 

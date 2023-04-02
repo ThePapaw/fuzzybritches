@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
     ResolveURL Addon for Kodi
     Copyright (C) 2016 t0mm0, tknorris
@@ -19,7 +20,7 @@ import re
 import xbmcgui
 from resolveurl.lib import jsunpack
 import six
-from six.moves import urllib_parse, urllib_request
+from six.moves import urllib_parse, urllib_request, urllib_error
 from resolveurl import common
 from resolveurl.resolver import ResolverError
 
@@ -183,7 +184,7 @@ def scrape_sources(html, result_blacklist=None, scheme='http', patterns=None, ge
     return source_list
 
 
-def get_media_url(url, result_blacklist=None, patterns=None, generic_patterns=True, referer=True):
+def get_media_url(url, result_blacklist=None, patterns=None, generic_patterns=True, referer=True, redirect=True, verifypeer=True):
     if patterns is None:
         patterns = []
     scheme = urllib_parse.urlparse(url).scheme
@@ -201,7 +202,7 @@ def get_media_url(url, result_blacklist=None, patterns=None, generic_patterns=Tr
         headers.update({'Referer': referer})
     elif referer:
         headers.update({'Referer': rurl})
-    response = net.http_GET(url, headers=headers)
+    response = net.http_GET(url, headers=headers, redirect=redirect)
     response_headers = response.get_headers(as_dict=True)
     cookie = response_headers.get('Set-Cookie', None)
     if cookie:
@@ -209,6 +210,8 @@ def get_media_url(url, result_blacklist=None, patterns=None, generic_patterns=Tr
     html = response.content
     if not referer:
         headers.update({'Referer': rurl})
+    if not verifypeer:
+        headers.update({'verifypeer': 'false'})
     headers.update({'Origin': rurl[:-1]})
     source_list = scrape_sources(html, result_blacklist, scheme, patterns, generic_patterns)
     source = pick_source(source_list)
@@ -298,11 +301,24 @@ def fun_decode(vu, lc, hr='16'):
     return vu
 
 
-def get_redirect_url(url, headers={}):
-    request = urllib_request.Request(url, headers=headers)
-    request.get_method = lambda: 'HEAD'
-    response = urllib_request.urlopen(request)
-    return response.geturl()
+def get_redirect_url(url, headers={}, form_data=None):
+    class NoRedirection(urllib_request.HTTPRedirectHandler):
+        def redirect_request(self, req, fp, code, msg, headers, newurl):
+            return None
+
+    if form_data:
+        if isinstance(form_data, dict):
+            form_data = urllib_parse.urlencode(form_data)
+        request = urllib_request.Request(url, six.b(form_data), headers=headers)
+    else:
+        request = urllib_request.Request(url, headers=headers)
+
+    opener = urllib_request.build_opener(NoRedirection())
+    try:
+        response = opener.open(request, timeout=20)
+    except urllib_error.HTTPError as e:
+        response = e
+    return response.headers.get('location') or url
 
 
 def girc(page_data, url, co):
@@ -604,3 +620,82 @@ def tear_decode(data_file, data_seed):
         a71[0] = a73[0]
         a71[1] = a73[1]
     return re.sub('[012567]', replacer, bytes2str(unpad(blocks2bytes(a74))))
+
+
+def duboku_decode(encurl):
+    base64_decode_chars = [
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, 62, -1, -1, -1, 63, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, -1, -1,
+        -1, -1, -1, -1, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+        15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, -1, -1, -1, -1, -1, -1, 26, 27, 28,
+        29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48,
+        49, 50, 51, -1, -1, -1, -1, -1
+    ]
+
+    length = len(encurl)
+    i = 0
+    out = []
+    while i < length:
+        while True:
+            c1 = base64_decode_chars[ord(encurl[i]) & 0xff]
+            i += 1
+            if not (i < length and c1 == -1):
+                break
+        if c1 == -1:
+            break
+        while True:
+            c2 = base64_decode_chars[ord(encurl[i]) & 0xff]
+            i += 1
+            if not (i < length and c2 == -1):
+                break
+        if c2 == -1:
+            break
+        out.append(chr((c1 << 2) | ((c2 & 0x30) >> 4)))
+        while True:
+            c3 = ord(encurl[i]) & 0xff
+            i += 1
+            if c3 == 61:
+                return ''.join(out)
+            c3 = base64_decode_chars[c3]
+            if not (i < length and c3 == -1):
+                break
+        if c3 == -1:
+            break
+        out.append(chr(((c2 & 0XF) << 4) | ((c3 & 0x3C) >> 2)))
+        while True:
+            c4 = ord(encurl[i]) & 0xff
+            i += 1
+            if c4 == 61:
+                return ''.join(out)
+            c4 = base64_decode_chars[c4]
+            if not (i < length and c4 == -1):
+                break
+        if c4 == -1:
+            break
+        out.append(chr(((c3 & 0x03) << 6) | c4))
+    return ''.join(out)
+
+
+def base164(e):
+    t = 'АВСDЕFGHIJKLМNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,~'
+    n = ''
+    o = 0
+    while o < len(e):
+        r = t.index(e[o])
+        o += 1
+        i = t.index(e[o])
+        o += 1
+        s = t.index(e[o])
+        o += 1
+        a = t.index(e[o])
+        o += 1
+        r = r << 2 | i >> 4
+        i = (15 & i) << 4 | s >> 2
+        c = (3 & s) << 6 | a
+        n += chr(r)
+        if s != 64:
+            n += chr(i)
+        if a != 64:
+            n += chr(c)
+    return n

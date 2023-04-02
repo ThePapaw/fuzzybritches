@@ -32,11 +32,15 @@ class StreamSBResolver(ResolveUrl):
     domains = ['sbembed.com', 'sbembed1.com', 'sbplay.org', 'sbvideo.net', 'streamsb.net', 'sbplay.one',
                'cloudemb.com', 'playersb.com', 'tubesb.com', 'sbplay1.com', 'embedsb.com', 'watchsb.com',
                'sbplay2.com', 'japopav.tv', 'viewsb.com', 'sbplay2.xyz', 'sbfast.com', 'sbfull.com',
-               'javplaya.com', 'ssbstream.net']
+               'javplaya.com', 'ssbstream.net', 'p1ayerjavseen.com', 'sbthe.com', 'vidmovie.xyz',
+               'sbspeed.com', 'streamsss.net', 'sblanh.com', 'tvmshow.com', 'sbanh.com', 'streamovies.xyz',
+               'embedtv.fun', 'sblongvu.com', 'arslanrocky.xyz', 'sbchill.com', 'sbrity.com', 'sbhight.com',
+               'sbbrisk.com', 'gomovizplay.com', 'sbface.com']
     pattern = r'(?://|\.)(' \
-              r'(?:view|watch|embed|tube|player|cloudemb|japopav|javplaya|stream)?s{0,2}b?' \
-              r'(?:embed\d?|play\d?|video|fast|full|stream)?\.(?:com|net|org|one|tv|xyz))/' \
-              r'(?:embed-|e/|play/|d/|sup/)?([0-9a-zA-Z]+)'
+              r'(?:view|watch|embed(?:tv)?|tube|player|cloudemb|japopav|javplaya|p1ayerjavseen|gomovizplay|stream(?:ovies)?|' \
+              r'vidmovie)?s{0,2}b?' \
+              r'(?:embed\d?|play\d?|video|fast|full|streams{0,3}|the|speed|l?anh|tvmshow|longvu|arslanrocky|chill|rity|hight|brisk|face)?\.' \
+              r'(?:com|net|org|one|tv|xyz|fun))/(?:embed[-/]|e/|play/|d/|sup/)?([0-9a-zA-Z]+)'
 
     def get_media_url(self, host, media_id):
         web_url = self.get_url(host, media_id)
@@ -44,7 +48,7 @@ class StreamSBResolver(ResolveUrl):
         headers = {'User-Agent': common.RAND_UA,
                    'Referer': rurl}
         html = self.net.http_GET(web_url, headers=headers).content
-        sources = re.findall(r'download_video([^"]+)[^\d]+\d+x(\d+)', html)
+        sources = re.findall(r'download_video([^"]+).*?<span>\s*(\d+)', html, re.S)
         if sources:
             sources.sort(key=lambda x: int(x[1]), reverse=True)
             sources = [(x[1] + 'p', x[0]) for x in sources]
@@ -57,14 +61,14 @@ class StreamSBResolver(ResolveUrl):
                 payload = helpers.get_hidden(html)
                 payload.update({'g-recaptcha-response': token})
                 req = self.net.http_POST(dl_url, form_data=payload, headers=headers).content
-                r = re.search('href="([^"]+)">Direct', req)
+                r = re.search(r'href="([^"]+)"\s*class="btn\s*btn-light', req)
                 if r:
                     return r.group(1) + helpers.append_headers(headers)
 
         eurl = self.get_embedurl(host, media_id)
-        headers.update({'watchsb': 'streamsb'})
+        headers.update({'watchsb': 'sbstream'})
         html = self.net.http_GET(eurl, headers=headers).content
-        data = json.loads(html).get("stream_data", {})
+        data = json.loads(html).get('stream_data', {})
         strurl = data.get('file') or data.get('backup')
         if strurl:
             headers.pop('watchsb')
@@ -87,4 +91,4 @@ class StreamSBResolver(ResolveUrl):
         c2 = binascii.hexlify(x.encode('utf8')).decode('utf8')
         x = '{0}||{1}||{2}||streamsb'.format(makeid(12), c2, makeid(12))
         c3 = binascii.hexlify(x.encode('utf8')).decode('utf8')
-        return 'https://{0}/sources43/{1}/{2}'.format(host, c1, c3)
+        return 'https://{0}/sources15/{1}/{2}'.format(host, c1, c3)

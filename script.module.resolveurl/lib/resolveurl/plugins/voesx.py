@@ -25,10 +25,32 @@ from resolveurl.resolver import ResolveUrl, ResolverError
 
 class VoeResolver(ResolveUrl):
     name = 'Voe'
-    domains = ['voe.sx', 'voe-unblock.com', 'voe-unblock.net', 'voeunblock.com', 'voeunbl0ck.com',
-               'voeunblck.com', 'voeunblk.com', 'voe-un-block.com', 'voeun-block.net']
+    domains = ['voe.sx', 'voe-unblock.com', 'voe-unblock.net', 'voeunblock.com',
+               'voeunbl0ck.com', 'voeunblck.com', 'voeunblk.com', 'voe-un-block.com',
+               'voeun-block.net', 'un-block-voe.net', 'v-o-e-unblock.com',
+               'audaciousdefaulthouse.com', 'launchreliantcleaverriver.com',
+               'reputationsheriffkennethsand.com', 'fittingcentermondaysunday.com',
+               'housecardsummerbutton.com', 'fraudclatterflyingcar.com',
+               'bigclatterhomesguideservice.com', 'uptodatefinishconferenceroom.com',
+               'realfinanceblogcenter.com', 'tinycat-voe-fashion.com',
+               '20demidistance9elongations.com', 'telyn610zoanthropy.com', 'toxitabellaeatrebates306.com',
+               'greaseball6eventual20.com', '745mingiestblissfully.com', '19turanosephantasia.com',
+               '30sensualizeexpression.com', '321naturelikefurfuroid.com', '449unceremoniousnasoseptal.com',
+               'guidon40hyporadius9.com', 'cyamidpulverulence530.com', 'boonlessbestselling244.com',
+               'antecoxalbobbing1010.com', 'matriculant401merited.com', 'scatch176duplicities.com']
     domains += ['voeunblock{}.com'.format(x) for x in range(1, 11)]
-    pattern = r'(?://|\.)(voe(?:-?un-?bl[o0]?c?k\d{0,2})?\.(?:sx|com|net))/(?:e/)?([0-9A-Za-z]+)'
+    pattern = r'(?://|\.)((?:audaciousdefaulthouse|launchreliantcleaverriver|' \
+              r'reputationsheriffkennethsand|fittingcentermondaysunday|' \
+              r'housecardsummerbutton|fraudclatterflyingcar|' \
+              r'bigclatterhomesguideservice|uptodatefinishconferenceroom|' \
+              r'realfinanceblogcenter|tinycat-voe-fashion|20demidistance9elongations|' \
+              r'telyn610zoanthropy|toxitabellaeatrebates306|greaseball6eventual20|' \
+              r'745mingiestblissfully|19turanosephantasia|30sensualizeexpression|' \
+              r'321naturelikefurfuroid|449unceremoniousnasoseptal|guidon40hyporadius9|' \
+              r'cyamidpulverulence530|boonlessbestselling244|antecoxalbobbing1010|' \
+              r'matriculant401merited|scatch176duplicities|' \
+              r'(?:v-?o-?e)?(?:-?un-?bl[o0]?c?k\d{0,2})?(?:-?voe)?)\.(?:sx|com|net))/' \
+              r'(?:e/)?([0-9A-Za-z]+)'
 
     def get_media_url(self, host, media_id):
         web_url = self.get_url(host, media_id)
@@ -42,7 +64,9 @@ class VoeResolver(ResolveUrl):
 
         sources = helpers.scrape_sources(
             html,
-            patterns=[r'''hls":\s*"(?P<url>[^"]+)",\s*"video_height":\s*(?P<label>[^,]+)'''],
+            patterns=[r'''mp4["']:\s*["'](?P<url>[^"']+)["'],\s*["']video_height["']:\s*(?P<label>[^,]+)''',
+                      r'''hls':\s*'(?P<url>[^']+)''',
+                      r'''hls":\s*"(?P<url>[^"]+)",\s*"video_height":\s*(?P<label>[^,]+)'''],
             generic_patterns=False
         )
         if sources:
