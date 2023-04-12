@@ -4,11 +4,12 @@
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="Fuzzy Britches">
-            <info compressed="false">https://raw.githubusercontent.com/thepapaw/fuzzybritches/master/_zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/thepapaw/fuzzybritches/master/_zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/thepapaw/fuzzybritches/master/_zips/</datadir>
-            <hashes>false</hashes>
-		<dir></dir>			
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/thepapaw/fuzzybritches/master/_zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/thepapaw/fuzzybritches/master/_zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/thepapaw/fuzzybritches/master/_zips/</datadir>
+			<hashes>false</hashes>
+		</dir>
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>The Official Fuzzy Britches Repository.</summary>
