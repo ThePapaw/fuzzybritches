@@ -41,22 +41,21 @@ class VlalaComResolver(ResolveUrl):
         if not referer:
             referer = urllib_parse.urljoin(web_url, '/')
 
-        headers = {'User-Agent': common.FF_USER_AGENT,
+        headers = {'User-Agent': common.SAFARI_USER_AGENT,
                    'Referer': referer}
 
         html = self.net.http_GET(web_url, headers=headers).content
         if 'Please Wait' in html:
             raise ResolverError('Please Wait Video Uploading.')
 
-        html += helpers.get_juiced2_data(html)
+        html = helpers.get_juiced2_data(html)
         r = re.search(r'config\s*=\s*([^;]+)', html)
         if r:
             data = json.loads(r.group(1))
-            s = data.get('sources', {}).get('file')
-            if s:
-                headers.update({'Referer': 'https://{}/'.format(host),
-                                'Origin': 'https://{}'.format(host)})
-                return s + helpers.append_headers(headers)
+            src = data.get('sources', {}).get('file')
+            if src:
+                headers.update({'Origin': 'https://{}'.format(host), 'verifypeer': 'false'})
+                return src + helpers.append_headers(headers)
 
         raise ResolverError('File Not Found or Removed')
 

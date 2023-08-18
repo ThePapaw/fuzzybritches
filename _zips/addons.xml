@@ -134,28 +134,6 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.gotv"
-       name="Go-Tv"
-       version="1.0.6"
-       provider-name="The Papaw">
-<requires>
-  <import addon="xbmc.python" version="3.0.0"/>
-  <import addon="script.module.requests" version="2.25.1"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="addon.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">Go-Tv</summary>
-  <description lang="en_GB">Go-Tv</description>
-  <disclaimer lang="en_GB">The author of this addon do not host any of the content which is found and has no affiliation with any of the content providers. This addon simply searches websites for content.</disclaimer>
-  <assets>
-	<icon>icon.png</icon>
-	<fanart>fanart.jpg</fanart>
-  </assets>
-</extension>
-</addon>
-
 <addon id="plugin.video.kidscove" name="Kids Cove" version="1.0.4" provider-name="The Papaw">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -638,7 +616,7 @@ Please give credit to all the devolopers that have and do contribute!
     </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.102" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.106" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
