@@ -1,0 +1,7 @@
+This addons uses your Real Debrid Cloud transfers ONLY.
+
+It is meant to be used with the Real-Debrid cloud service based on content you currently own or have transferred into your account. It does not share/upload/links to copyrighted content, please use this addon responsibly and according to the law of your country.
+
+Any query/question regarding copyrighted material will not be answered nor addressed.
+
+Bear in mind that any changes to the addon is at the pure discretions of the developer, the addon is free to use and open source.
